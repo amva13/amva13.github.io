@@ -634,6 +634,9 @@ a:focus {
 	letter-spacing: 0;
 	margin-bottom: 57px;
 }
+.resumo_fn_main_title .icon{
+	
+}
 /*------------------------------------------------------------------*/
 /*	06) About Section
 /*------------------------------------------------------------------*/
@@ -1637,6 +1640,11 @@ a:focus {
 }
 .resumo_fn_contact{
 	width: 100%;
+	float: left;
+	clear: both;
+}
+.resumo_fn_icon{
+	color: white;
 	float: left;
 	clear: both;
 }

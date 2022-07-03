@@ -1,4 +1,10 @@
 import { useState } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import 'font-awesome/css/font-awesome.min.css';
+import { faEnvelope as faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+
 const Contact = () => {
   const [form, setForm] = useState({ email: "", name: "", phone: "", msg: "" });
   const [active, setActive] = useState(null);
@@ -25,12 +31,26 @@ const Contact = () => {
   };
   return (
     <section id="contact">
+      {/* <script src="https://kit.fontawesome.com/f27d64fe2f.js" crossorigin="anonymous"></script> */}
+      
       <div className="container">
+        
+      {/* <Row>
+              <Col xs={6}>
+                <FontAwesomeIcon icon={faEnvelope}/>
+              </Col>
+              <Col xs={6}>
+                <FontAwesomeIcon icon={faEnvelope}/>
+              </Col>
+              {/* <img src="img/news/nxtattempt.png" alt="image" /> */}
+        {/* </Row> */}
         <div className="roww resumo_fn_contact">
           {/* Main Title */}
           <div className="resumo_fn_main_title">
-            <h3 className="subtitle">Contact</h3>
+            <h3 className="subtitle">Nobody built like you, you design yourself.</h3>
             <h3 className="title">Get In Touch</h3>
+            
+            
             {/* <p className="desc">
               If you have any suggestion, project or even you want to say
               “hello”, please fill out the form below and I will reply you
@@ -145,7 +165,13 @@ const Contact = () => {
           {/* </form> */}
           {/* /Contact Form */}
           {/* Contact Info */}
-          <div className="resumo_fn_contact_info">
+          {/* <div className="resumo_fn_contact_info"> */}
+            {/* <div className="col-sm-4">
+            <a href="mailto:alejandro.velez.arce@gmail.com"> */}
+            {/* <i class="fa-solid fa-circle-envelope"></i> */}
+
+            {/* </a>
+            </div> */}
             {/* <p>Address</p>
             <h3>69 Queen St, London, United Kingdom</h3>
             <p>Phone</p>
@@ -157,7 +183,7 @@ const Contact = () => {
                 alejandro.velez.arce@gmail.com
               </a>
             </p>
-          </div>
+          {/* </div> */}
           {/* /Contact Info */}
         </div>
       </div>
