@@ -53,6 +53,7 @@ const News = () => {
                   </div>
                   <div className="title_holder">
                     <p>May 22, 2022</p>
+                    
                     <h3>
                       <a href="https://nftcalendar.io/news/apliko-emblem-interview/">
                         We're Building the Soon-to-Be Greatest Decentralized Talent Platform — Creator's Interview 
