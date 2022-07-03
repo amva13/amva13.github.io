@@ -22,7 +22,7 @@ const Layout = ({ children }) => {
   return (
     <Fragment>
       <Head>
-        <title>Resumo Home | Personal Portfolio React NextJS Template</title>
+        <title>Introduction to Alejandro Velez</title>
       </Head>
       <div className="resumo_fn_wrapper">
         {/* MODALBOX */}
