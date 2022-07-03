@@ -6,7 +6,8 @@
     "build": "next build",
     "start": "next start",
     "predeploy": "npm run build",
-    "deploy": "git commit -ammend && git push && ipd -o build && aws s3 cp build/ s3://alejandrovelez.com --recursive",
+    "export": "next export",
+    "deploy": "next export && git commit -ammend && git push && ipd -o build && aws s3 cp out/ s3://alejandrovelez.com --recursive",
     "lint": "next lint"
   },
   "dependencies": {
