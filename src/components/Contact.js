@@ -179,8 +179,8 @@ const Contact = () => {
               <a href="tel:+7068980751">(+706) 898-0751</a>
             </h3> */}
             <p>
-              <a className="fn__link" href="mailto:alejandro.velez.arce@gmail.com">
-                alejandro.velez.arce@gmail.com
+              <a className="fn__link" href="mailto:amva13@alum.mit.edu">
+                amva13@alum.mit.edu
               </a>
             </p>
           {/* </div> */}
