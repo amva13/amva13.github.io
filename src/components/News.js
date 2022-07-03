@@ -35,7 +35,7 @@ const News = () => {
           {/* Main Title */}
           <div className="resumo_fn_main_title">
             <h3 className="subtitle">You define your own life. Don’t let other people write your script.</h3>
-            <h3 className="title">As talked about in</h3>
+            <h3 className="title">As featured in</h3>
           </div>
           {/* /Main Title */}
           {/* Blog List */}
