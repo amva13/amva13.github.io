@@ -17,7 +17,7 @@ const About = () => {
                 In high school, he founded his school's first politics and international relations club,
                 wich led the way in holding his county's first televised public mayoral debate.
                 Furthermore, he was an ISWEEEP medalist for his research with the University of Puerto Rico's Computer Science Department and created a new and optimal sunscreen formula.
-                He was the president of his senior class and the group's top math student.`}
+                He was the president of his senior class and the group's top math student. He attended MIT and majored in Computer Science.`}
             </p>
           </div>
           {/* /Main Title */}
@@ -141,15 +141,15 @@ const About = () => {
                           <h5><a href="https://apliko.io">Apliko Inc</a></h5>
                           <span>( 2022 — Today )</span>
                         </div>
-                        <h3>Founder, CEO, Executive Chairman</h3>
-                        <p>
+                        <h3>Founder</h3>
+                        {/* <p>
                           Have hired and worked with people all over the world to build
                           the world's foremost decentralized talent network based on
                           blockchain.
-                        </p>
+                        </p> */}
                       </div>
                     </li>
-                    <li>
+                    {/* <li>
                       <div className="item">
                         <div className="item_top">
                           <h5><a href="https://getcruise.com">Cruise LLC</a></h5>
@@ -159,19 +159,19 @@ const About = () => {
                         <p>
                         </p>
                       </div>
-                    </li>
+                    </li> */}
                     <li>
                       <div className="item">
                         <div className="item_top">
                           <h5><a href="https://pinterest.com">Pinterest Inc</a></h5>
-                          <span>( 2018 - 2022 )</span>
+                          <span>( 2018 - 2021 )</span>
                         </div>
-                        <h3>Software Engineer II</h3>
+                        {/* <h3>Software Engineer II</h3> */}
                         <p>
                         </p>
                       </div>
                     </li>
-                    <li>
+                    {/* <li>
                       <div className="item">
                         <div className="item_top">
                           <h5><a href="https://mit.edu">M.I.T. Computer Science and Artificial Intelligence Lab</a></h5>
@@ -181,7 +181,7 @@ const About = () => {
                         <p>
                         </p>
                       </div>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
                 {/* /Boxed List */}
@@ -199,7 +199,7 @@ const About = () => {
                         </div>
                         <h3>B.S. Computer Science</h3>
                         <h5>Minor in Management, Concentration in Economics</h5>
-                        <p>
+                        {/* <p>
                           Built out a geometric computing system at MIT CSAIL
                           which was used to evaluate Gerrymandering cases in
                           Virginia.
@@ -208,7 +208,7 @@ const About = () => {
                           Selected for MIT's Washington DC Summer Internship Program and
                           interned at the World Bank where he collaborated on producing a report
                           studying youth employment initiatives around the world.
-                        </p>
+                        </p> */}
                       </div>
                     </li>
                     {/* <li>
