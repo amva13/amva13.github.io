@@ -12,12 +12,7 @@ const About = () => {
             <h3 className="subtitle">There is nothing impossible to they who will try.</h3>
             <h3 className="title">Pioneer</h3>
             <p className="desc">
-              {`Mr. Velez was born and raised in Mayaguez, Puerto Rico and demonstrated 
-                exceptional creativity, leadership, and technical ability from a young age.
-                In high school, he founded his school's first politics and international relations club,
-                wich led the way in holding his county's first televised public mayoral debate.
-                Furthermore, he was an ISWEEEP medalist for his research with the University of Puerto Rico's Computer Science Department and created a new and optimal sunscreen formula.
-                He was the president of his senior class and the group's top math student. He attended MIT and majored in Computer Science.`}
+              {`Hi, I'm Alex. I'm an entrepreneur and founder of Apliko. Outside of work I enjoy many latin dances, international traveling, love the outdoors, exploring new cuisines, obstacle racing, athletics, and podcasts through spotify and youtube.`}
             </p>
           </div>
           {/* /Main Title */}
@@ -149,24 +144,24 @@ const About = () => {
                         </p> */}
                       </div>
                     </li>
-                    {/* <li>
+                    <li>
                       <div className="item">
                         <div className="item_top">
                           <h5><a href="https://getcruise.com">Cruise LLC</a></h5>
                           <span>( 2022 — 2022 )</span>
                         </div>
-                        <h3>Senior Full-stack Software Engineer</h3>
+                        <h3>Senior Software Engineer</h3>
                         <p>
                         </p>
                       </div>
-                    </li> */}
+                    </li>
                     <li>
                       <div className="item">
                         <div className="item_top">
                           <h5><a href="https://pinterest.com">Pinterest Inc</a></h5>
                           <span>( 2018 - 2021 )</span>
                         </div>
-                        {/* <h3>Software Engineer II</h3> */}
+                        <h3>Software Engineer II</h3>
                         <p>
                         </p>
                       </div>

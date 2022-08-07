@@ -8,8 +8,7 @@ const Home = () => {
             <h3 className="subtitle">Challenge Orthodoxy</h3>
             <h3 className="title">Innovator, Builder</h3>
             <p className="desc">
-              Mr.Velez innovates. He has built his own business, created jobs and partnerships all over the world,
-              and is launching Web3's foremost talent network.
+             Welcome to my website. A statically-generated decentralized react application hosted on IPFS and registered on the Ethereum Name Service. 
             </p>
             <img src="img/signature.png" alt="image" />
           </div>

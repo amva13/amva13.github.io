@@ -180,7 +180,7 @@ const Contact = () => {
             </h3> */}
             <p>
               <a className="fn__link" href="mailto:amva13@alum.mit.edu">
-                amva13@alum.mit.edu
+               alex@alexv24.com 
               </a>
             </p>
           {/* </div> */}

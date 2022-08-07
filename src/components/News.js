@@ -431,7 +431,7 @@ const News = () => {
                   </div>
                 </div>
               </li>
-              {/* <li className={!hiddenItem ? "" : "be_animated"}>
+              <li className={!hiddenItem ? "" : "be_animated"}>
                 <div
                   className="item modal_item"
                   onClick={() => modalValueSet(6)}
@@ -508,7 +508,7 @@ const News = () => {
                     </p>
                   </div>
                 </div>
-              </li> */}
+              </li>
             </ul>
             <div className="clearfix" />
             <div className="load_more">

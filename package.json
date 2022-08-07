@@ -7,7 +7,7 @@
     "start": "next start",
     "predeploy": "npm run build",
     "export": "next export",
-    "deploy": "next export && git commit -ammend && git push && ipd -o out && aws s3 cp out/ s3://alejandrovelez.com --recursive && aws s3 cp out/ s3://www.alejandrovelez.com --recursive && aws cloudfront create-invalidation --distribution-id EYE9EKI5GMXD1 --paths '/*' && aws cloudfront create-invalidation --distribution-id E1VDAOFFD1SR8J --paths '/*'",
+    "deploy": "next export && git commit -ammend && git push && ipd -o out",
     "lint": "next lint"
   },
   "dependencies": {
