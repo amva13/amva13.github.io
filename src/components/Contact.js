@@ -4,6 +4,9 @@ import 'font-awesome/css/font-awesome.min.css';
 import { faEnvelope as faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import { send } from 'emailjs-com';
+
+// const nodemailer = require("nodemailer");
 
 const Contact = () => {
   const [form, setForm] = useState({ email: "", name: "", phone: "", msg: "" });
@@ -14,20 +17,43 @@ const Contact = () => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
   const { email, name, phone, msg } = form;
+
   const onSubmit = (e) => {
     e.preventDefault();
-    if (email && name && phone && msg) {
+    send(
+      'service_izcwtp9',
+      'template_vl5zt8k',
+      {
+        from_name: name,
+        to_name: 'aGod',
+        message: msg,
+        reply_to: email
+      },
+      'TTHZisjwuTINkWc3t'
+    ).then((response) => {
       setSuccess(true);
       setTimeout(() => {
-        setForm({ email: "", name: "", phone: "", msg: "" });
+        setForm({email: "", name: "", phone: "", msg: ""});
         setSuccess(false);
-      }, 2000);
-    } else {
+      }, 2000)
+    }).catch((err) => {
       setError(true);
       setTimeout(() => {
         setError(false);
       }, 2000);
-    }
+    })
+    // if (email && name && phone && msg) {
+    //   setSuccess(true);
+    //   setTimeout(() => {
+    //     setForm({ email: "", name: "", phone: "", msg: "" });
+    //     setSuccess(false);
+    //   }, 2000);
+    // } else {
+    //   setError(true);
+    //   setTimeout(() => {
+    //     setError(false);
+    //   }, 2000);
+    // }
   };
   return (
     <section id="contact">
@@ -59,8 +85,8 @@ const Contact = () => {
           </div>
           {/* /Main Title */}
           {/* Contact Form */}
-          {/* <form className="contact_form" onSubmit={(e) => onSubmit(e)}> */}
-            {/* <div
+          <form className="contact_form" onSubmit={(e) => onSubmit(e)}>
+            <div
               className="success"
               data-success="Your message has been received, we will contact you soon."
               style={{ display: success ? "block" : "none" }}
@@ -75,8 +101,7 @@ const Contact = () => {
             >
               <span>Please Fill Required Fields!</span>
             </div>
-            {/* */}
-            {/* <div className="items_wrap">
+            <div className="items_wrap">
               <div className="items">
                 <div className="item half">
                   <div
@@ -149,11 +174,11 @@ const Contact = () => {
                     <span className="moving_placeholder">Message</span>
                   </div>
                 </div>
-                <div className="item"> */}
+                <div className="item">
                   {/* <a id="send_message" href="#">
                     Send Message
                   </a> */}
-                  {/* <input
+                  <input
                     className="a"
                     type="submit"
                     id="send_message"
@@ -161,8 +186,8 @@ const Contact = () => {
                   />
                 </div>
               </div>
-            </div> */}
-          {/* </form> */}
+            </div>
+          </form>
           {/* /Contact Form */}
           {/* Contact Info */}
           {/* <div className="resumo_fn_contact_info"> */}
@@ -178,11 +203,11 @@ const Contact = () => {
             <h3>
               <a href="tel:+7068980751">(+706) 898-0751</a>
             </h3> */}
-            <p>
+            {/* <p>
               <a className="fn__link" href="mailto:amva13@alum.mit.edu">
                alex@alexv24.com 
               </a>
-            </p>
+            </p> */}
           {/* </div> */}
           {/* /Contact Info */}
         </div>
