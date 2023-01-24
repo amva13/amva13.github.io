@@ -82,7 +82,7 @@ const Customers = () => {
                     “ Alejandro is extremely driven. His passion for challenging projects is highly contagious and motivates everyone working with him. ”
                   </p>
                   <h3 className="title">Senior Colleague</h3>
-                  <h3 className="subtitle">Technical Lead, Pinterest</h3>
+                  <h3 className="subtitle">Technical Lead, Pinterest Machine Learning</h3>
                 </div>
               </SwiperSlide>
               <SwiperSlide className="item" key='2'>
@@ -91,7 +91,7 @@ const Customers = () => {
                     {`“ He is one of the brightest individuals I've had the privilege of working with. He consistently took on challenging projects, persevered, and found ways to succeed. ”`}
                   </p>
                   <h3 className="title">Senior Colleague</h3>
-                  <h3 className="subtitle">Senior Quantitative Analyst</h3>
+                  <h3 className="subtitle">Senior Quantitative Research Engineer</h3>
                 </div>
               </SwiperSlide>
               <SwiperSlide className="item" key='3'>

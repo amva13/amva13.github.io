@@ -12,8 +12,17 @@ const About = () => {
             <h3 className="subtitle">There is nothing impossible to they who will try.</h3>
             <h3 className="title">Pioneer</h3>
             <p className="desc">
-              {`Hi, I'm Alex. I'm an entrepreneur and founder of Apliko. Outside of work I enjoy many latin dances, international traveling, love the outdoors, exploring new cuisines, obstacle racing, athletics, and podcasts through spotify and youtube.`}
+              {`I most recently worked on launching my own company, during which I led entire product development for a consumer-fintech product which obtained 200+ signups. We are a Microsoft for Startups Founders Hub member company. I was further recognized by YCombinator as being in the top 10% of their "startup school" founders.`}
             </p>
+            <p className="desc">
+              {`Prior to that I worked at a social media company, boasting 450M+ MAU, where I worked on machine learning for ads ranking and data engineering in growth experimentation, large scale distributed systems, and led cross-functional projects of up to 15+ people improving KPIs 20-50% across projects.`}
+              </p>
+            <p className="desc">
+              {`I'm an MIT Computer Science alum. While there I was a Research Assistant at the MIT Computer Science and Artificial Intelligence Laboratory, where I worked with the Geometric Data Processing Group and advanced Gerrymandering Analytics Capabilities by producing a python geometric computing library still used in legal cases and by the Metric Geometry and Gerrymandering Group at Tufts University.`}
+              </p>
+              <p className="desc">
+                {`Outside of work I enjoy many latin dances, international traveling, love the outdoors, exploring new cuisines, obstacle racing, athletics, and podcasts through spotify and youtube.`}
+                </p>
           </div>
           {/* /Main Title */}
           {/* About Information */}
@@ -144,7 +153,7 @@ const About = () => {
                         </p> */}
                       </div>
                     </li>
-                    <li>
+                    {/* <li>
                       <div className="item">
                         <div className="item_top">
                           <h5><a href="https://getcruise.com">Cruise LLC</a></h5>
@@ -154,7 +163,7 @@ const About = () => {
                         <p>
                         </p>
                       </div>
-                    </li>
+                    </li> */}
                     <li>
                       <div className="item">
                         <div className="item_top">

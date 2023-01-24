@@ -204,25 +204,25 @@ const News = () => {
                   data-index={3}
                 >
                   <div className="img_holder">
-                    <a href="https://www.f6s.com/alejandro-velez"><img src="img/news/f6s.png" alt="image" /></a>
-                    <div className="abs_img" data-bg-img="img/news/f6s.png" />
+                    <a href="https://medium.com/pinterest-engineering/pinalyticsdb-a-time-series-database-on-top-of-hbase-946f236bb29a"><img src="img/news/pins.png" alt="image" /></a>
+                    <div className="abs_img" data-bg-img="img/news/pins.png" />
                   </div>
                   <div className="title_holder">
                     <p>April 26, 2022</p>
                     <h3>
-                      <a href="https://www.f6s.com/alejandro-velez">
-                        Founder's profile, F6S
+                      <a href="https://medium.com/pinterest-engineering/pinalyticsdb-a-time-series-database-on-top-of-hbase-946f236bb29a">
+                      Pinterest Engineering Blog
                       </a>
                     </h3>
                   </div>
                   <div className="fn__hidden">
-                    <p className="fn__cat">April 26, 2022</p>
+                    <p className="fn__cat">Sep 26, 2019</p>
                     <h3 className="fn__title">
-                      Founder's profile, F6S
+                      Pinterest Engineering Blog
                     </h3>
                     <div className="img_holder">
-                      <a href="https://www.f6s.com/alejandro-velez"><img src="img/news/f6s.png" alt="image" /></a>
-                      <div className="abs_img" data-bg-img="img/news/f6s.png" />
+                      <a href="https://medium.com/pinterest-engineering/pinalyticsdb-a-time-series-database-on-top-of-hbase-946f236bb29a"><img src="img/news/f6s.png" alt="image" /></a>
+                      <div className="abs_img" data-bg-img="img/news/pins.png" />
                     </div>
                     <p className="fn__desc">
                       Sed ornare tellus a odio bibendum, at tristique sapien
@@ -439,24 +439,24 @@ const News = () => {
                 >
                   <div className="img_holder">
                     <img src="img/news/acadium.jpg" alt="image" />
-                    <div className="abs_img" data-bg-img="img/news/acadium.jpg" />
+                    <div className="abs_img" data-bg-img="img/news/gdp.png" />
                   </div>
                   <div className="title_holder">
-                    <p>June, 2022</p>
+                    <p>September, 2017</p>
                     <h3>
-                      <a href="https://acadium.com/p/20834p8b5">
-                        Acadium Marketing Mentor
+                      <a href="https://groups.csail.mit.edu/gdpgroup/team.html">
+                        CSAIL Geometric Data Processing Group 2017
                       </a>
                     </h3>
                   </div>
                   <div className="fn__hidden">
                     <p className="fn__cat">June, 2022</p>
                     <h3 className="fn__title">
-                      Acadium Marketing Mentor
+                    CSAIL Geometric Data Processing Group 2017
                     </h3>
                     <div className="img_holder">
                       <img src="img/news/acadium.jpg" alt="image" />
-                      <div className="abs_img" data-bg-img="img/news/acadium.jpg" />
+                      <div className="abs_img" data-bg-img="img/news/gdp.png" />
                     </div>
                     <p className="fn__desc">
                       Sed ornare tellus a odio bibendum, at tristique sapien
