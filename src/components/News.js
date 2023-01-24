@@ -204,8 +204,8 @@ const News = () => {
                   data-index={3}
                 >
                   <div className="img_holder">
-                    <a href="https://medium.com/pinterest-engineering/pinalyticsdb-a-time-series-database-on-top-of-hbase-946f236bb29a"><img src="img/news/pins.png" alt="image" /></a>
-                    <div className="abs_img" data-bg-img="img/news/pins.png" />
+                    <a href="https://medium.com/pinterest-engineering/pinalyticsdb-a-time-series-database-on-top-of-hbase-946f236bb29a"><img src="img/news/pins.jpg" alt="image" /></a>
+                    <div className="abs_img" data-bg-img="img/news/pins.jpg" />
                   </div>
                   <div className="title_holder">
                     <p>April 26, 2022</p>
@@ -222,7 +222,7 @@ const News = () => {
                     </h3>
                     <div className="img_holder">
                       <a href="https://medium.com/pinterest-engineering/pinalyticsdb-a-time-series-database-on-top-of-hbase-946f236bb29a"><img src="img/news/f6s.png" alt="image" /></a>
-                      <div className="abs_img" data-bg-img="img/news/pins.png" />
+                      <div className="abs_img" data-bg-img="img/news/pins.jpg" />
                     </div>
                     <p className="fn__desc">
                       Sed ornare tellus a odio bibendum, at tristique sapien
@@ -439,7 +439,7 @@ const News = () => {
                 >
                   <div className="img_holder">
                     <img src="img/news/acadium.jpg" alt="image" />
-                    <div className="abs_img" data-bg-img="img/news/gdp.png" />
+                    <div className="abs_img" data-bg-img="img/news/gdp.jpg" />
                   </div>
                   <div className="title_holder">
                     <p>September, 2017</p>
@@ -456,7 +456,7 @@ const News = () => {
                     </h3>
                     <div className="img_holder">
                       <img src="img/news/acadium.jpg" alt="image" />
-                      <div className="abs_img" data-bg-img="img/news/gdp.png" />
+                      <div className="abs_img" data-bg-img="img/news/gdp.jpg" />
                     </div>
                     <p className="fn__desc">
                       Sed ornare tellus a odio bibendum, at tristique sapien
