@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
         <title>Introduction to Alejandro Velez</title>
         <meta property="og:title" content="Intro to Alejandro 'Alex' Velez Arce"/>
         <meta property="og:type" content="website"/>
-        <meta property="og:image" content="img/alphunt.jpg"/>
+        <meta property="og:image" content="public/img/alphunt.jpg"/>
         <meta property="og:url" content="https://alejandrovelez.com"/>
       </Head>
       <div className="resumo_fn_wrapper">
