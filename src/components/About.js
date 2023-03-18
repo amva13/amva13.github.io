@@ -174,6 +174,7 @@ const About = () => {
                         <p>
                         </p>
                       </div>
+                      
                     </li>
                     {/* <li>
                       <div className="item">
@@ -191,6 +192,7 @@ const About = () => {
                 {/* /Boxed List */}
               </div>
               {/* /#1 tab content */}
+              
               {/* #2 tab content */}
               <div id="tab2" className={`tab_item ${activeList("tab2")}`}>
                 {/* Boxed List */}
