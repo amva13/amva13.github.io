@@ -4,53 +4,26 @@ import { dataImage } from "../utilits";
 const Modalbox = ({ close, value }) => {
   const data = [
     {
-      name: "Sweet Cherry",
-      tag: "illustration, design",
+      name: "NFT Search Engine and Masonry",
+      tag: "React.js, Javascript, Python, Full-stack developmen",
       desc: [
-        { p: "Sed ornare tellus a odio bibendum, at tristique sapien malesuada. Proin sagittis maximus accumsan. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc consectetur efficitur ut quis est. Proin posuere orci eget vulputate fringilla. Curabitur placerat massa eget efficitur cursus. Sed sollicitudin rhoncus blandit. Nam accumsan vestibulum enim. Sed rutrum eu leo pellentesque lobortis. Integer ornare fringilla arcu, eu mattis risus convallis in." }
+        { p: "I've found the webpage design for most nft marketplaces to be inadequate. They do a good job of showing the popularity and trading activity of NFTs. However, I don't believe they showcase the content of digital artwork well. So, I decided to build a search engine and masonry layout for NFTs. I hope it can help you find an NFT you like." }
       ]
 
     },
     {
-      name: "Delicious Fruit",
-      tag: "web, mobile, online",
+      name: "Generative AI for Drug Discovery",
+      tag: "Generative AI, Python, Flask, PyTorch, Diffusion Generative Models",
       desc: [
-        { p: "Proin sagittis maximus accumsan. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc consectetur efficitur ut quis est. Proin posuere orci eget vulputate fringilla. Curabitur placerat massa eget efficitur cursus. Integer ornare fringilla arcu, eu mattis risus convallis in." },
-        { p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc consectetur efficitur ut quis est. Proin posuere orci eget vulputate fringilla. Curabitur placerat massa eget efficitur cursus. Sed sollicitudin rhoncus blandit. Nam accumsan vestibulum enim. Sed rutrum eu leo pellentesque lobortis. Integer ornare fringilla arcu, eu mattis risus convallis in. Sed ornare tellus a odio bibendum, at tristique sapien malesuada. " }
+        { p: "DiffDock is a diffusion generative model built by MIT CSAIL for protein-ligand binding (molecular docking). I've reproduced it and productionized it via a web server. " },
       ]
 
     },
     {
-      name: "Ice Cream",
-      tag: "mobile, design", 
+      name: "Cryptocurrency ticker data infrastructure",
+      tag: "hedge funds, trading, Python, big data", 
       desc: [
-        { p: "Sed ornare tellus a odio bibendum, at tristique sapien malesuada. Proin sagittis maximus accumsan. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc consectetur efficitur ut quis est. Proin posuere orci eget vulputate fringilla. Curabitur placerat massa eget efficitur cursus. Sed sollicitudin rhoncus blandit. Nam accumsan vestibulum enim. Sed rutrum eu leo pellentesque lobortis. Integer ornare fringilla arcu, eu mattis risus convallis in."}
-      ]
-
-    },
-    {
-      name: "Blue Lemon",
-      tag: "design, vector",
-      desc: [
-        { p: "Proin sagittis maximus accumsan. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc consectetur efficitur ut quis est. Proin posuere orci eget vulputate fringilla. Curabitur placerat massa eget efficitur cursus. Integer ornare fringilla arcu, eu mattis risus convallis in." },
-        { p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc consectetur efficitur ut quis est. Proin posuere orci eget vulputate fringilla. Curabitur placerat massa eget efficitur cursus. Sed sollicitudin rhoncus blandit. Nam accumsan vestibulum enim. Sed rutrum eu leo pellentesque lobortis. Integer ornare fringilla arcu, eu mattis risus convallis in. Sed ornare tellus a odio bibendum, at tristique sapien malesuada." }
-      ]
-
-    },
-    {
-      name: "Ice Cream",
-      tag: "mobile, design",
-      desc: [
-        { p: "Sed ornare tellus a odio bibendum, at tristique sapien malesuada. Proin sagittis maximus accumsan. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc consectetur efficitur ut quis est. Proin posuere orci eget vulputate fringilla. Curabitur placerat massa eget efficitur cursus. Sed sollicitudin rhoncus blandit. Nam accumsan vestibulum enim. Sed rutrum eu leo pellentesque lobortis. Integer ornare fringilla arcu, eu mattis risus convallis in." }
-      ]
-
-    },
-    {
-      name: "Yellow Phone",
-      tag: "mobile, design",
-      desc: [
-        { p: "Proin sagittis maximus accumsan. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc consectetur efficitur ut quis est. Proin posuere orci eget vulputate fringilla. Curabitur placerat massa eget efficitur cursus. Integer ornare fringilla arcu, eu mattis risus convallis in."},
-        { p: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida quam sit amet elit varius tempor. Pellentesque purus eros, blandit eu mollis vel, commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at nunc consectetur efficitur ut quis est. Proin posuere orci eget vulputate fringilla. Curabitur placerat massa eget efficitur cursus. Sed sollicitudin rhoncus blandit. Nam accumsan vestibulum enim. Sed rutrum eu leo pellentesque lobortis. Integer ornare fringilla arcu, eu mattis risus convallis in. Sed ornare tellus a odio bibendum, at tristique sapien malesuada."}
+        { p: "Developed system design and prototype implementation of data infrastructure serving quantitative research for a cryptocurrency hedge fund client."}
       ]
 
     }
@@ -94,7 +67,7 @@ const Modalbox = ({ close, value }) => {
                       <img src="/img/thumb/square.jpg" alt="" />
                       <div
                         className="abs_img"
-                        data-bg-img={`/img/portfolio/${index}.jpg`}
+                        data-bg-img={`/img/portfolio/${index}.png`}
                       />
                     </div>
                     {d.desc.map((des,i) => (
