@@ -20,8 +20,8 @@ const Portfolio = () => {
                 <span />
               </a>
             </div>
-            {/* <h3 className="subtitle">Portfolio</h3>
-            <h3 className="title">Featured Projects</h3> */}
+            <h3 className="subtitle">Portfolio</h3>
+            <h3 className="title">Other Cool Projects</h3>
           </div>
           {/* /Main Title */}
         </div>
@@ -43,35 +43,27 @@ const Portfolio = () => {
             >
               <div className="img_holder">
                 <img src="img/thumb/square.jpg" alt="image" />
-                <div className="abs_img" data-bg-img="img/portfolio/1.jpg" />
+                <div className="abs_img" data-bg-img="img/portfolio/nfts.png" />
               </div>
               <div className="title_holder">
-                <p>illustration, design</p>
+                <p>React.js, Javascript, Python, Full-stack development</p>
                 <h3>
-                  <a href="#">Sweet Cherry</a>
+                  <a href="https://black-hill-0e2bc0010.2.azurestaticapps.net/">NFT Search Engine and Masonry</a>
                 </h3>
               </div>
               <div className="fn__hidden">
-                <p className="fn__cat">illustration, design</p>
-                <h3 className="fn__title">Sweet Cherry</h3>
+                <p className="fn__cat">React.js, Javascript, Python, Full-stack development</p>
+                <h3 className="fn__title">NFT Search Engine and Masonry</h3>
                 <div className="img_holder">
                   <img src="img/thumb/square.jpg" alt="image" />
-                  <div className="abs_img" data-bg-img="img/portfolio/1.jpg" />
+                  <div className="abs_img" data-bg-img="img/portfolio/nfts.png" />
                 </div>
                 <p className="fn__desc">
-                  Sed ornare tellus a odio bibendum, at tristique sapien
-                  malesuada. Proin sagittis maximus accumsan. Class aptent
-                  taciti sociosqu ad litora torquent per conubia nostra, per
-                  inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit. Quisque gravida quam sit amet elit varius
-                  tempor. Pellentesque purus eros, blandit eu mollis vel,
-                  commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at
-                  nunc consectetur efficitur ut quis est. Proin posuere orci
-                  eget vulputate fringilla. Curabitur placerat massa eget
-                  efficitur cursus. Sed sollicitudin rhoncus blandit. Nam
-                  accumsan vestibulum enim. Sed rutrum eu leo pellentesque
-                  lobortis. Integer ornare fringilla arcu, eu mattis risus
-                  convallis in.
+                I've found the webpage design for most nft marketplaces to be inadequate. 
+                They do a good job of showing the popularity and trading activity of NFTs. However, 
+                I don't believe they showcase the content of digital artwork well. 
+                So, I decided to build a search engine and masonry layout for NFTs. 
+                I hope it can help you find an NFT you like.
                 </p>
               </div>
             </SwiperSlide>
@@ -85,52 +77,24 @@ const Portfolio = () => {
             >
               <div className="img_holder">
                 <img src="img/thumb/square.jpg" alt="image" />
-                <div className="abs_img" data-bg-img="img/portfolio/2.jpg" />
+                <div className="abs_img" data-bg-img="img/portfolio/diffdock.png" />
               </div>
               <div className="title_holder">
-                <p>web, mobile, online</p>
+                <p>Generative AI, Python, Flask, PyTorch, Diffusion Generative Models</p>
                 <h3>
-                  <a href="#">Delicious Fruit</a>
+                  <a href="https://github.com/amva13/DiffDock">Generative AI for Drug Discovery</a>
                 </h3>
               </div>
               <div className="fn__hidden">
-                <p className="fn__cat">web, mobile, online</p>
-                <h3 className="fn__title">Delicious Fruit</h3>
+                <p className="fn__cat">Generative AI, Python, Flask, PyTorch, Diffusion Generative Models</p>
+                <h3 className="fn__title">Generative AI for Drug Discovery</h3>
                 <div className="img_holder">
                   <img src="img/thumb/square.jpg" alt="image" />
-                  <div className="abs_img" data-bg-img="img/portfolio/2.jpg" />
+                  <div className="abs_img" data-bg-img="img/portfolio/diffdock.png" />
                 </div>
                 <p className="fn__desc">
-                  Sed ornare tellus a odio bibendum, at tristique sapien
-                  malesuada. Proin sagittis maximus accumsan. Class aptent
-                  taciti sociosqu ad litora torquent per conubia nostra, per
-                  inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit. Quisque gravida quam sit amet elit varius
-                  tempor. Pellentesque purus eros, blandit eu mollis vel,
-                  commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at
-                  nunc consectetur efficitur ut quis est. Proin posuere orci
-                  eget vulputate fringilla. Curabitur placerat massa eget
-                  efficitur cursus. Sed sollicitudin rhoncus blandit. Nam
-                  accumsan vestibulum enim. Sed rutrum eu leo pellentesque
-                  lobortis. Integer ornare fringilla arcu, eu mattis risus
-                  convallis in.
-                </p>
-                <p className="fn__desc">
-                  Quisque dui metus, eleifend at enim ac, imperdiet sagittis
-                  dolor. Vestibulum ipsum quam, feugiat non velit sit amet,
-                  pulvinar varius nisl. Mauris tristique, ipsum sit amet lacinia
-                  congue, mauris magna tempus nibh, in mollis eros enim a
-                  tortor. Morbi enim arcu, tristique vitae mi nec, hendrerit
-                  pharetra metus. Phasellus id feugiat purus. In vel elit eu
-                  lacus ultrices feugiat. Etiam at aliquet mi. Nunc sit amet
-                  libero sit amet lectus pellentesque sagittis. Curabitur
-                  blandit ante quis erat dapibus viverra. Maecenas consequat
-                  pulvinar pulvinar. Donec in aliquam arcu. Donec eu laoreet
-                  dolor. Ut nisi lectus, pulvinar ac mattis quis, pretium ac
-                  nulla. Morbi sed ligula ultrices, ornare mauris id, auctor
-                  arcu. Sed pellentesque ex sed erat faucibus, ultrices vehicula
-                  ex dapibus. Aenean venenatis metus eros, vel faucibus lorem
-                  porttitor eu.
+                 DiffDock is a diffusion generative model built by MIT CSAIL for protein-ligand binding 
+                 (molecular docking). I've reproduced it and productionized it via a web server. 
                 </p>
               </div>
             </SwiperSlide>
@@ -144,52 +108,24 @@ const Portfolio = () => {
             >
               <div className="img_holder">
                 <img src="img/thumb/square.jpg" alt="image" />
-                <div className="abs_img" data-bg-img="img/portfolio/3.jpg" />
+                <div className="abs_img" data-bg-img="img/portfolio/ticker.png" />
               </div>
               <div className="title_holder">
-                <p>design, vector</p>
+                <p>hedge funds, trading, Python, big data</p>
                 <h3>
-                  <a href="#">Blue Lemon</a>
+                  <a href="https://github.com/amva13/monofeed">Cryptocurrency ticker data infrastructure</a>
                 </h3>
               </div>
               <div className="fn__hidden">
-                <p className="fn__cat">design, vector</p>
-                <h3 className="fn__title">Blue Lemon</h3>
+                <p className="fn__cat">hedge funds, trading, Python, big data</p>
+                <h3 className="fn__title">Cryptocurrency ticker data infrastructure</h3>
                 <div className="img_holder">
                   <img src="img/thumb/square.jpg" alt="image" />
-                  <div className="abs_img" data-bg-img="img/portfolio/3.jpg" />
+                  <div className="abs_img" data-bg-img="img/portfolio/ticker.png" />
                 </div>
                 <p className="fn__desc">
-                  Sed ornare tellus a odio bibendum, at tristique sapien
-                  malesuada. Proin sagittis maximus accumsan. Class aptent
-                  taciti sociosqu ad litora torquent per conubia nostra, per
-                  inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit. Quisque gravida quam sit amet elit varius
-                  tempor. Pellentesque purus eros, blandit eu mollis vel,
-                  commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at
-                  nunc consectetur efficitur ut quis est. Proin posuere orci
-                  eget vulputate fringilla. Curabitur placerat massa eget
-                  efficitur cursus. Sed sollicitudin rhoncus blandit. Nam
-                  accumsan vestibulum enim. Sed rutrum eu leo pellentesque
-                  lobortis. Integer ornare fringilla arcu, eu mattis risus
-                  convallis in.
-                </p>
-                <p className="fn__desc">
-                  Quisque dui metus, eleifend at enim ac, imperdiet sagittis
-                  dolor. Vestibulum ipsum quam, feugiat non velit sit amet,
-                  pulvinar varius nisl. Mauris tristique, ipsum sit amet lacinia
-                  congue, mauris magna tempus nibh, in mollis eros enim a
-                  tortor. Morbi enim arcu, tristique vitae mi nec, hendrerit
-                  pharetra metus. Phasellus id feugiat purus. In vel elit eu
-                  lacus ultrices feugiat. Etiam at aliquet mi. Nunc sit amet
-                  libero sit amet lectus pellentesque sagittis. Curabitur
-                  blandit ante quis erat dapibus viverra. Maecenas consequat
-                  pulvinar pulvinar. Donec in aliquam arcu. Donec eu laoreet
-                  dolor. Ut nisi lectus, pulvinar ac mattis quis, pretium ac
-                  nulla. Morbi sed ligula ultrices, ornare mauris id, auctor
-                  arcu. Sed pellentesque ex sed erat faucibus, ultrices vehicula
-                  ex dapibus. Aenean venenatis metus eros, vel faucibus lorem
-                  porttitor eu.
+                  Developed system design and prototype implementation of data infrastructure 
+                  serving quantitative research for a cryptocurrency hedge fund client.
                 </p>
               </div>
             </SwiperSlide>
@@ -203,111 +139,27 @@ const Portfolio = () => {
             >
               <div className="img_holder">
                 <img src="img/thumb/square.jpg" alt="image" />
-                <div className="abs_img" data-bg-img="img/portfolio/4.jpg" />
+                <div className="abs_img" data-bg-img="img/news/gdp.jpg" />
               </div>
               <div className="title_holder">
-                <p>mobile, design</p>
+                <p>data science, python, data engineering, quantitative research</p>
                 <h3>
-                  <a href="#">Yellow Phone</a>
+                  <a href="https://github.com/amva13/mit-csail-tufts-mggg-gerrymandering-geometric-data-processing">Research Assistantship MIT CSAIL</a>
                 </h3>
               </div>
               <div className="fn__hidden">
-                <p className="fn__cat">mobile, design</p>
-                <h3 className="fn__title">Yellow Phone</h3>
+                <p className="fn__cat">data science, python, data engineering, quantitative research</p>
+                <h3 className="fn__title">Research Assistantship MIT CSAIL</h3>
                 <div className="img_holder">
                   <img src="img/thumb/square.jpg" alt="image" />
-                  <div className="abs_img" data-bg-img="img/portfolio/4.jpg" />
+                  <div className="abs_img" data-bg-img="img/news/gdp.jpg" />
                 </div>
                 <p className="fn__desc">
-                  Sed ornare tellus a odio bibendum, at tristique sapien
-                  malesuada. Proin sagittis maximus accumsan. Class aptent
-                  taciti sociosqu ad litora torquent per conubia nostra, per
-                  inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit. Quisque gravida quam sit amet elit varius
-                  tempor. Pellentesque purus eros, blandit eu mollis vel,
-                  commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at
-                  nunc consectetur efficitur ut quis est. Proin posuere orci
-                  eget vulputate fringilla. Curabitur placerat massa eget
-                  efficitur cursus. Sed sollicitudin rhoncus blandit. Nam
-                  accumsan vestibulum enim. Sed rutrum eu leo pellentesque
-                  lobortis. Integer ornare fringilla arcu, eu mattis risus
-                  convallis in.
+                Developed a high-performance geometric data processing library for scientific computing over GIS data (shapefiles) in Python.
                 </p>
                 <p className="fn__desc">
-                  Quisque dui metus, eleifend at enim ac, imperdiet sagittis
-                  dolor. Vestibulum ipsum quam, feugiat non velit sit amet,
-                  pulvinar varius nisl. Mauris tristique, ipsum sit amet lacinia
-                  congue, mauris magna tempus nibh, in mollis eros enim a
-                  tortor. Morbi enim arcu, tristique vitae mi nec, hendrerit
-                  pharetra metus. Phasellus id feugiat purus. In vel elit eu
-                  lacus ultrices feugiat. Etiam at aliquet mi. Nunc sit amet
-                  libero sit amet lectus pellentesque sagittis. Curabitur
-                  blandit ante quis erat dapibus viverra. Maecenas consequat
-                  pulvinar pulvinar. Donec in aliquam arcu. Donec eu laoreet
-                  dolor. Ut nisi lectus, pulvinar ac mattis quis, pretium ac
-                  nulla. Morbi sed ligula ultrices, ornare mauris id, auctor
-                  arcu. Sed pellentesque ex sed erat faucibus, ultrices vehicula
-                  ex dapibus. Aenean venenatis metus eros, vel faucibus lorem
-                  porttitor eu.
-                </p>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide
-              className="item modal_item"
-              onClick={() => {
-                setModal(true);
-                setModalValue(5);
-              }}
-              data-index={5}
-            >
-              <div className="img_holder">
-                <img src="img/thumb/square.jpg" alt="image" />
-                <div className="abs_img" data-bg-img="img/portfolio/5.jpg" />
-              </div>
-              <div className="title_holder">
-                <p>mobile, design</p>
-                <h3>
-                  <a href="#">Ice Cream</a>
-                </h3>
-              </div>
-              <div className="fn__hidden">
-                <p className="fn__cat">mobile, design</p>
-                <h3 className="fn__title">Ice Cream</h3>
-                <div className="img_holder">
-                  <img src="img/thumb/square.jpg" alt="image" />
-                  <div className="abs_img" data-bg-img="img/portfolio/5.jpg" />
-                </div>
-                <p className="fn__desc">
-                  Sed ornare tellus a odio bibendum, at tristique sapien
-                  malesuada. Proin sagittis maximus accumsan. Class aptent
-                  taciti sociosqu ad litora torquent per conubia nostra, per
-                  inceptos himenaeos. Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit. Quisque gravida quam sit amet elit varius
-                  tempor. Pellentesque purus eros, blandit eu mollis vel,
-                  commodo eget orci. Proin vel hendrerit ex. Vivamus ut ex at
-                  nunc consectetur efficitur ut quis est. Proin posuere orci
-                  eget vulputate fringilla. Curabitur placerat massa eget
-                  efficitur cursus. Sed sollicitudin rhoncus blandit. Nam
-                  accumsan vestibulum enim. Sed rutrum eu leo pellentesque
-                  lobortis. Integer ornare fringilla arcu, eu mattis risus
-                  convallis in.
-                </p>
-                <p className="fn__desc">
-                  Quisque dui metus, eleifend at enim ac, imperdiet sagittis
-                  dolor. Vestibulum ipsum quam, feugiat non velit sit amet,
-                  pulvinar varius nisl. Mauris tristique, ipsum sit amet lacinia
-                  congue, mauris magna tempus nibh, in mollis eros enim a
-                  tortor. Morbi enim arcu, tristique vitae mi nec, hendrerit
-                  pharetra metus. Phasellus id feugiat purus. In vel elit eu
-                  lacus ultrices feugiat. Etiam at aliquet mi. Nunc sit amet
-                  libero sit amet lectus pellentesque sagittis. Curabitur
-                  blandit ante quis erat dapibus viverra. Maecenas consequat
-                  pulvinar pulvinar. Donec in aliquam arcu. Donec eu laoreet
-                  dolor. Ut nisi lectus, pulvinar ac mattis quis, pretium ac
-                  nulla. Morbi sed ligula ultrices, ornare mauris id, auctor
-                  arcu. Sed pellentesque ex sed erat faucibus, ultrices vehicula
-                  ex dapibus. Aenean venenatis metus eros, vel faucibus lorem
-                  porttitor eu.
+                Researched and implemented high performance geometric data processing algorithms for political redistricting. 
+                Scaled polygon adjacency algorithms for big data geospatial analysis. 
                 </p>
               </div>
             </SwiperSlide>

@@ -12,9 +12,30 @@ const About = () => {
             <h3 className="subtitle">There is nothing impossible to they who will try.</h3>
             <h3 className="title">Pioneer</h3>
             <p className="desc">
+              {`I was born and raised in Puerto Rico, born to a culture and friends at school from all over the world, all kinds of ethnicities, and socioeconomic circumstances, which taught me the value of a diverse group of people to provide insights and culture to one's life and perspective. This is an outlook I've carried to multiple aspects of my life and career`}
+              </p>
+              <p className="desc">
+              {`My interest in the sciences, especially in physics and mathematics, as well as a budding passion for entrepreneurship led me to apply to and choose MIT for my undergraduate degree. In high school, I'd shown relative strength in math and science, built great relationships with my teachers in those fields, and had great success in scientific research pursuits, which led me to believe the communities and intellectual pursuits of science and engineering would be things I enjoy. This ended up very much being the case, as my choice of MIT was driven quite strongly by the people I met throughout the pre-decision process. In addition, I'd lived in a commonwealth whose potential, at the time, was inhibited by a bloated and sluggish government, and massive bureaucratic private sector institutions unable to provide the innovation and prosperity the great people of Puerto Rico needed to unleash their full potential. This drove my interest in entrepreneurship, and I looked to many lovely people I met in Puerto Rico who had started their own business, in everything from tech to car sales, for inspiration. However, I was also driven by academia, having a very accomplished academic as a Father, who also happened to go to MIT, and I looked to how I could connect entrepreneurial passion with academic greatness and scientific achievement beyond what was exhibited by the entrepreneurs I'd been exposed to in my day-to-day life.`}
+              </p>
+              <p className="desc">
+              {`My professional life has been marked by a passion for computer science. As a young student, I was amazed by the sheer power of the fields’ problem-solving philosophy and the degree of impact one could have in so many fields, being amazed by the computational modeling of human cognition I learned about through my coursework and my ability to have impact across gerrymandering cases all over the nation through code I developed during research at MIT’s Computer Science and Artificial Intelligence Laboratory. The latter experience was my first practical exposure to high performance scientific computing. The ability to use different aspects of computation, from geometric algorithm optimization to distributed systems for data processing and Python/C++ programming considerations to advance the practice of science on a high impact problem in social justice was exciting to me and researching and leveraging applied mathematical techniques for modeling political redistricting systems allowed me to take on challenges in political science in a way better suiting my interests. I would carry this interest in high performance scientific computation further in my career.`}
+              </p>
+              <p className="desc">
+              {`At Pinterest, I developed systems advancing online a/b experimentation, simulation pipelines and statistical frameworks for assessing systemic risk of the experimentation platform, and high performance computing systems for machine learning and data storage and processing. Despite my success at Pinterest, having been promoted within my first year at the company and published in the Pinterest Engineering Blog, I went on to face tremendous mental health challenges after my first two years in the company, exacerbated by the most significant global event in my lifetime, the global shutdowns associated with the COVID pandemic. It was during this time that, after also evaluating previous episodes of struggles with mental health, I was diagnosed with bipolar manic disorder. I worked through distinct medical and behavioral treatments between 2020 and 2022 to reach where I am now, having turned the corner and developed stronger mental health resilience and positivity than ever before. However, this experience, along with misdiagnoses and battles with the side effects of some of the medications, ignited an interest in using my skills to advance the production and discovery of new, cheaper, and better medications, which led to my launching Alphunt, a generative artificial intelligence platform for drug discovery. In particular, my interest is in the converging advances in science and modeling technology for molecular simulation and its promise in the areas of energy, sustainability, and health.`}
+              </p>
+              <p className="desc">
+              {`Outside of this I have great interest in helping people unleash their creative potential and monetize their passions. Taking on challenges in the creator economy was a problem of deep interest in previous entrepreneurial ventures (Apliko) and at Pinterest. I'm also interested in the potential Generative AI has for helping more people create beautiful art and have great impact in music, digital artwork and more.`}
+              </p>
+              <p className="desc">
+              {`I also freelance and love taking on new challenges, developing innovative solutions, and building products and systems making people's lives optimal.`}
+              </p>
+              <p className="desc">
+              {`Outside of work and entrepreneurial pursuits, I enjoy jiujitsu, health and wellness, challenging myself to different athletic challenges (ie. spartan races and marathons), exploring artwork digital, via NFTs and more, and non-digital, and watching Ultimate Fighting Championship (UFC) and the English Premier League.`}
+              </p>
+            {/* <p className="desc">
               {`I most recently worked on launching my own company, during which I led entire product development for a consumer-fintech product which obtained 200+ signups. We are a Microsoft for Startups Founders Hub member company. I was further recognized by YCombinator as being in the top 10% of their "startup school" founders.`}
-            </p>
-            <p className="desc">
+            </p> */}
+            {/* <p className="desc">
               {`Prior to that I worked at a social media company, boasting 450M+ MAU, where I worked on machine learning for ads ranking and data engineering in growth experimentation, large scale distributed systems, and led cross-functional projects of up to 15+ people improving KPIs 20-50% across projects.`}
               </p>
             <p className="desc">
@@ -22,7 +43,7 @@ const About = () => {
               </p>
               <p className="desc">
                 {`Outside of work I enjoy many latin dances, international traveling, love the outdoors, exploring new cuisines, obstacle racing, athletics, and podcasts through spotify and youtube.`}
-                </p>
+                </p> */}
           </div>
           {/* /Main Title */}
           {/* About Information */}
@@ -143,27 +164,29 @@ const About = () => {
                       <div className="item">
                         <div className="item_top">
                           <h5><a href="https://apliko.io">Apliko Inc</a></h5>
-                          <span>( 2022 — Today )</span>
+                          <span>( 2022 — 2023 )</span>
                         </div>
-                        <h3>Founder</h3>
-                        {/* <p>
-                          Have hired and worked with people all over the world to build
-                          the world's foremost decentralized talent network based on
-                          blockchain.
-                        </p> */}
+                        <h3>Co-founder, CEO</h3>
+                        <p>
+                          Web3's foremost professional social network. Connect with your community and 
+                          build the career you love with Apliko.
+                        </p>
                       </div>
                     </li>
-                    {/* <li>
+                    <li>
                       <div className="item">
                         <div className="item_top">
-                          <h5><a href="https://getcruise.com">Cruise LLC</a></h5>
+                          <h5><a href="https://getcruise.com">Cruise Automation LLC</a></h5>
                           <span>( 2022 — 2022 )</span>
                         </div>
                         <h3>Senior Software Engineer</h3>
                         <p>
+                          First company to bring fully autonomous vehicles to San Francisco. 
+                          Cruise is building the world’s most advanced self-driving vehicles 
+                          to safely connect people with the places, things, and experiences they care about.
                         </p>
                       </div>
-                    </li> */}
+                    </li>
                     <li>
                       <div className="item">
                         <div className="item_top">
@@ -172,6 +195,7 @@ const About = () => {
                         </div>
                         <h3>Software Engineer II</h3>
                         <p>
+                          The world's foremost visual inspiration search engine. Pinterest is helping pinners live the life they love.
                         </p>
                       </div>
                       
