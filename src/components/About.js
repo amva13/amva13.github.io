@@ -30,7 +30,7 @@ const About = () => {
               {`He also freelances and loves taking on new challenges, developing innovative solutions, and building products and systems making people's lives optimal.`}
               </p>
               <p className="desc">
-              {`Outside of work and entrepreneurial pursuits, he enjoys jiujitsu, health and wellness, challenging himself to different athletic challenges (ie. spartan races and marathons), exploring artwork digital, via NFTs and more, and non-digital, and watching Ultimate Fighting Championship (UFC) and the English Premier League.`}
+              {`Outside of work and entrepreneurial pursuits, he enjoys practicing brazilian jiujitsu and mixed martial arts, health and wellness, challenging himself to different athletic challenges (ie. spartan races and marathons), exploring artwork digital, via NFTs and more, and non-digital, and watching Ultimate Fighting Championship (UFC) and the English Premier League.`}
               </p>
             {/* <p className="desc">
               {`I most recently worked on launching my own company, during which I led entire product development for a consumer-fintech product which obtained 200+ signups. We are a Microsoft for Startups Founders Hub member company. I was further recognized by YCombinator as being in the top 10% of their "startup school" founders.`}
