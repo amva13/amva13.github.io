@@ -163,19 +163,6 @@ const About = () => {
                     <li>
                       <div className="item">
                         <div className="item_top">
-                          <h5><a href="https://apliko.io">Apliko Inc</a></h5>
-                          <span>( 2022 — 2023 )</span>
-                        </div>
-                        <h3>Co-founder, CEO</h3>
-                        <p>
-                          Web3's foremost professional social network. Connect with your community and 
-                          build the career you love with Apliko.
-                        </p>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="item">
-                        <div className="item_top">
                           <h5><a href="https://getcruise.com">Cruise Automation LLC</a></h5>
                           <span>( 2022 — 2022 )</span>
                         </div>
