@@ -12,6 +12,9 @@ const About = () => {
             <h3 className="subtitle">There is nothing impossible to they who will try.</h3>
             <h3 className="title">Pioneer</h3>
             <p className="desc">
+              {'Work in progress: bio. Have a look at my LinkedIn and Github for career trajectory and projects. Snippets available on this website as well'}
+            </p>
+            {/* <p className="desc">
               {`Alejandro Velez Arce was born and raised in Puerto Rico, born to a culture and friends at school from all over the world, all kinds of ethnicities, and socioeconomic circumstances, which taught him the value of a diverse group of people to provide insights and culture to one's life and perspective. This is an outlook he's carried to multiple aspects of my life and career`}
               </p>
               <p className="desc">
@@ -31,7 +34,7 @@ const About = () => {
               </p>
               <p className="desc">
               {`Outside of work and entrepreneurial pursuits, he enjoys practicing brazilian jiujitsu and mixed martial arts, health and wellness, challenging himself to different athletic challenges (ie. spartan races and marathons), exploring artwork digital, via NFTs and more, and non-digital, and watching Ultimate Fighting Championship (UFC) and the English Premier League.`}
-              </p>
+              </p> */}
             {/* <p className="desc">
               {`I most recently worked on launching my own company, during which I led entire product development for a consumer-fintech product which obtained 200+ signups. We are a Microsoft for Startups Founders Hub member company. I was further recognized by YCombinator as being in the top 10% of their "startup school" founders.`}
             </p> */}

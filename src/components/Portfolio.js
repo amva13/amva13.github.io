@@ -71,9 +71,9 @@ const Portfolio = () => {
               className="item modal_item"
               onClick={() => {
                 setModal(true);
-                setModalValue(3);
+                setModalValue(2);
               }}
-              data-index={3}
+              data-index={2}
             >
               <div className="img_holder">
                 <img src="img/thumb/square.jpg" alt="image" />
@@ -102,9 +102,9 @@ const Portfolio = () => {
               className="item modal_item"
               onClick={() => {
                 setModal(true);
-                setModalValue(2);
+                setModalValue(3);
               }}
-              data-index={2}
+              data-index={3}
             >
               <div className="img_holder">
                 <img src="img/thumb/square.jpg" alt="image" />

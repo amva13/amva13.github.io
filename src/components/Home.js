@@ -7,8 +7,11 @@ const Home = () => {
           <div className="resumo_fn_main_title">
             <h3 className="subtitle">Challenge Orthodoxy</h3>
             <h3 className="title">Innovator, Builder</h3>
-            <p className="desc">
+            {/* <p className="desc">
              Welcome to my website. A statically-generated decentralized react application hosted on IPFS, deployed through Fleek, and registered on the <a href="https://alejandrovelez.eth.link/">Ethereum Name Service</a>. 
+            </p> */}
+            <p className="desc">
+              Welcome to my website. Our tech stack has changed recently. This section will be updated over the coming months. Feel free to enjoy the rest of the site!
             </p>
             <img src="img/signature.png" alt="image" />
           </div>
