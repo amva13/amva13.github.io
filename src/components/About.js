@@ -165,6 +165,37 @@ const About = () => {
                   <ul>
                     <li>
                       <div className="item">
+                          <div className="item_top">
+                            <h5><a href="https://getcruise.com">Harvard University</a></h5>
+                            <span>( 2024 — present )</span>
+                          </div>
+                          <h3>Research Associate</h3>
+                          <p>
+                          Appointment under Prof. Marinka Zitnik and the Zitnik Lab 
+                          developing the new release of Therapeutic Commons 
+                          ( https://tdcommons.ai/ ). Department of Biomedical Informatics of 
+                          Harvard Medical School.
+                          It is the foremost open source platform for 
+                          leveraging artificial intelligence capability across therapeutic modalities 
+                          and stages of drug discovery. It currently is a resource with AI-solvable 
+                          tasks, AI-ready datasets, and curated benchmarks, providing an ecosystem 
+                          of tools, libraries, leaderboards, and community resources, including 
+                          data functions, strategies for systematic model evaluation, meaningful 
+                          data splits, data processors, and molecule generation oracles. 
+                          All resources are integrated via an open Python library.
+                          I am developing a unified ecosystem of AI-powered API endpoints, data and model 
+                          benchmarks, comprehensive performance testing functions, and large-scale 
+                          pre-trained and multimodal AI models that will form the basis of the new 
+                          release of Therapeutics Commons. Furthermore, I am Providing robust and efficient 
+                          implementations of AI tools that integrate structural and biochemical therapeutic 
+                          data with single-cell genomics. These tools center on vital therapeutic tasks, 
+                          including identifying promising new drug targets and predicting their efficacy, 
+                          toxicity, and resistance mechanisms.
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                      <div className="item">
                         <div className="item_top">
                           <h5><a href="https://getcruise.com">Cruise Automation LLC</a></h5>
                           <span>( 2022 — 2022 )</span>
