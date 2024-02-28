@@ -10,9 +10,9 @@ const About = () => {
           {/* Main Title */}
           <div className="resumo_fn_main_title">
             <h3 className="subtitle">There is nothing impossible to they who will try.</h3>
-            <h3 className="title">Pioneer</h3>
+            <h3 className="title">Engineer, Scientist, Entrepreneur, Inventor</h3>
             <p className="desc">
-              {'Work in progress: bio. Have a look at my LinkedIn and Github for career trajectory and projects. Snippets available on this website as well'}
+              {'I\'m interested in molecular machine learning (MoML) and its applications in drug discovery and other domains. Privacy-preserving AI, Diffusion Generative Models, and Genomics are also of great interest. I\'m currently a researcher at Harvard Medical School working on AI for drug discovery. I\'m also the founder of Alphunt, where I\'m building a federated learning platform in molecular machine learning powered by diffusion generative models and distributed ledger technologies. Have a look at my LinkedIn and Github for career trajectory and projects. Snippets available on this website as well'}
             </p>
             {/* <p className="desc">
               {`Alejandro Velez Arce was born and raised in Puerto Rico, born to a culture and friends at school from all over the world, all kinds of ethnicities, and socioeconomic circumstances, which taught him the value of a diverse group of people to provide insights and culture to one's life and perspective. This is an outlook he's carried to multiple aspects of my life and career`}
