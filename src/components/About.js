@@ -184,21 +184,21 @@ const About = () => {
                             <span>( 2024 — present )</span>
                           </div>
                           <h3>Research Associate</h3>
-                          <p>
+                          <h6>
                           <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11212894/">Latest preprint</a>
-                          </p>
-                          <p>
+                          </h6>
+                          <h6>
                           <a href="https://www.linkedin.com/posts/activity-7211075907417952257-jvjq?utm_source=share&utm_medium=member_desktop">Blurb</a>
-                          </p>
-                          <p>
+                          </h6>
+                          <h6>
                   <a href="https://github.com/mims-harvard/TDC">Github</a>
-                  </p>
-                  <p>
+                  </h6>
+                  <h6>
                   <a href="https://tdcommons.ai/">Therapeutic Commons 2.0 website</a>
-                  </p>
-                  <p>
+                  </h6>
+                  <h6>
                   <a href="https://zitniklab.hms.harvard.edu/">Zitnik Lab</a>
-                  </p>
+                  </h6>
                         </div>
                       </li>
                       <li>
