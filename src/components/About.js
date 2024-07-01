@@ -9,10 +9,24 @@ const About = () => {
         <div className="roww">
           {/* Main Title */}
           <div className="resumo_fn_main_title">
-            <h3 className="subtitle">There is nothing impossible to they who will try.</h3>
+            <h3 className="subtitle">There is nothing impossible for those who will try.</h3>
             <h3 className="title">Engineer, Scientist, Entrepreneur, Inventor</h3>
             <p className="desc">
-              {'I\'m interested in molecular machine learning (MoML) and its applications in the design of new drugs, materials, chemicals and catalysts. Broad Chemical and Bioinformatics, the intersection of natural and artificial intelligence, Quantum computing and information, Privacy-preserving AI, AI4Science, and Generative AI are also of great interest. I\'m currently a researcher at Harvard Medical School working on AI for drug discovery. I\'m also the founder of Alphunt, where I\'m building a federated learning platform in molecular machine learning powered by diffusion generative models and distributed ledger technologies. Have a look at my LinkedIn and Github for career trajectory and projects. Snippets available on this website as well'}
+              {'I\'m a Pre-Doctoral Research Associate at Harvard Medical School, Department of Biomedical Informatics, \
+                advised by Professor Marinka Zitnik. I completed my S.B. at MIT, where I was co-advised by Justin Solomon (MIT CSAIL) \
+                and Moon Duchin (Tufts Math) to develop metric geometry models and data science algorithms for assessing fairness in political \
+                redistricting as part of an informal collective called the Metric Geometry and Gerrymandering Group, now \
+                the MGGG Redistricting Lab (mggg.org). Before starting at HMS, I was a software engineer at Pinterest focused on \
+                data science, data engineering, and machine learning. I also launched two companies in blockchain and drugAI spaces and \
+                took on senior ML roles at companies like Cruise.'}
+            </p>
+            <p className="desc">
+    {'My research at HMS lies at the intersection of medicine and AI. I\'ve developed software for predicting cellular responses to novel \
+      drug-based and CRISPR perturbations at single-cell resolution. I\'ve also worked on developing LLM agents leveraging single-cell \
+      geometric deep learning models for numerous therapeutic tasks. The focus of my work has been on multimodal foundations for therapeutic AI. \
+      I\'ve led the development of the newest release of the Therapeutic Commons (tdcommons.ai). It is designed to catalyze research in \
+      multimodal models for drug discovery. It combines single-cell biology, biochemistry, and drug effects through multimodal datasets, \
+      AI-powered API endpoints, new tasks, model frameworks, and benchmarks.'}
             </p>
             {/* <p className="desc">
               {`Alejandro Velez Arce was born and raised in Puerto Rico, born to a culture and friends at school from all over the world, all kinds of ethnicities, and socioeconomic circumstances, which taught him the value of a diverse group of people to provide insights and culture to one's life and perspective. This is an outlook he's carried to multiple aspects of my life and career`}
@@ -166,32 +180,25 @@ const About = () => {
                     <li>
                       <div className="item">
                           <div className="item_top">
-                            <h5><a href="https://getcruise.com">Harvard University</a></h5>
+                            <h5><a href="https://hms.harvard.edu/">Harvard Medical School</a></h5>
                             <span>( 2024 — present )</span>
                           </div>
                           <h3>Research Associate</h3>
                           <p>
-                          Appointment under Prof. Marinka Zitnik and the Zitnik Lab 
-                          developing the new release of Therapeutic Commons 
-                          ( https://tdcommons.ai/ ). Department of Biomedical Informatics of 
-                          Harvard Medical School.
-                          It is the foremost open source platform for 
-                          leveraging artificial intelligence capability across therapeutic modalities 
-                          and stages of drug discovery. It currently is a resource with AI-solvable 
-                          tasks, AI-ready datasets, and curated benchmarks, providing an ecosystem 
-                          of tools, libraries, leaderboards, and community resources, including 
-                          data functions, strategies for systematic model evaluation, meaningful 
-                          data splits, data processors, and molecule generation oracles. 
-                          All resources are integrated via an open Python library.
-                          I am developing a unified ecosystem of AI-powered API endpoints, data and model 
-                          benchmarks, comprehensive performance testing functions, and large-scale 
-                          pre-trained and multimodal AI models that will form the basis of the new 
-                          release of Therapeutics Commons. Furthermore, I am Providing robust and efficient 
-                          implementations of AI tools that integrate structural and biochemical therapeutic 
-                          data with single-cell genomics. These tools center on vital therapeutic tasks, 
-                          including identifying promising new drug targets and predicting their efficacy, 
-                          toxicity, and resistance mechanisms.
+                          <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11212894/">Latest preprint</a>
                           </p>
+                          <p>
+                          <a href="https://www.linkedin.com/posts/activity-7211075907417952257-jvjq?utm_source=share&utm_medium=member_desktop">Blurb</a>
+                          </p>
+                          <p>
+                  <a href="https://github.com/mims-harvard/TDC">Github</a>
+                  </p>
+                  <p>
+                  <a href="https://tdcommons.ai/">Therapeutic Commons 2.0 website</a>
+                  </p>
+                  <p>
+                  <a href="https://zitniklab.hms.harvard.edu/">Zitnik Lab</a>
+                  </p>
                         </div>
                       </li>
                       <li>
