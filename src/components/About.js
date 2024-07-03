@@ -17,13 +17,13 @@ const About = () => {
                 and Moon Duchin (Tufts Math) to develop metric geometry models and data science algorithms for assessing fairness in political \
                 redistricting as part of an informal collective called the Metric Geometry and Gerrymandering Group, now \
                 the MGGG Redistricting Lab (mggg.org). Before starting at HMS, I was a software engineer at Pinterest focused on \
-                data science, data engineering, and machine learning. I also launched two companies in blockchain and drugAI spaces and \
+                data science, data engineering, and machine learning. I also launched two companies in the blockchain and drugAI spaces and \
                 took on senior ML roles at companies like Cruise.'}
             </p>
             <p className="desc">
     {'My research at HMS lies at the intersection of medicine and AI. I\'ve developed software for predicting cellular responses to novel \
-      drug-based and CRISPR perturbations at single-cell resolution. I\'ve also worked on developing LLM agents leveraging single-cell \
-      geometric deep learning models for numerous therapeutic tasks. The focus of my work has been on multimodal foundations for therapeutic AI. \
+      drug-based and CRISPR perturbations at single-cell resolution. I\'ve also worked on developing LLM agents for numerous therapeutic tasks.\
+      The focus of my work has been on multimodal foundations for therapeutic AI. \
       I\'ve led the development of the newest release of the Therapeutic Commons (tdcommons.ai). It is designed to catalyze research in \
       multimodal models for drug discovery. It combines single-cell biology, biochemistry, and drug effects through multimodal datasets, \
       AI-powered API endpoints, new tasks, model frameworks, and benchmarks.'}
