@@ -30,7 +30,7 @@ const About = () => {
             </p>
   <p className="desc">
     {'Outside of work I enjoy several physical challenges and outdoors activities including hiking, the gym, and indoor bouldering (new). I\'ve \
-      competed in numerous Spartan Races. I also enjoy learning about Art, Science, and Technology. I\'m learning several new languages: Chinese, \
+      competed in numerous Spartan Races. I dabble in BJJ/MMA and Swimming. I also enjoy learning about Art, Science, and Technology. I\'m learning several new languages: Chinese, \
       French, German at the moment. I also enjoy music and the performative arts and would always consider a trip to a poetry slam, standup comedy, \
       the Boston Symphony and others!'}
     </p>
