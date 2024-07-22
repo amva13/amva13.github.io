@@ -28,6 +28,12 @@ const About = () => {
       multimodal models for drug discovery. It combines single-cell biology, biochemistry, and drug effects through multimodal datasets, \
       AI-powered API endpoints, new tasks, model frameworks, and benchmarks.'}
             </p>
+  <p className="desc">
+    {'Outside of work I enjoy several physical challenges and outdoors activities including hiking, the gym, and indoor bouldering (new). I\'ve \
+      competed in numerous Spartan Races. I also enjoy learning about Art, Science, and Technology. I\'m learning several new languages: Chinese, \
+      French, German at the moment. I also enjoy music and the performative arts and would always consider a trip to a poetry slam, standup comedy, \
+      the Boston Symphony and others!'}
+    </p>
             {/* <p className="desc">
               {`Alejandro Velez Arce was born and raised in Puerto Rico, born to a culture and friends at school from all over the world, all kinds of ethnicities, and socioeconomic circumstances, which taught him the value of a diverse group of people to provide insights and culture to one's life and perspective. This is an outlook he's carried to multiple aspects of my life and career`}
               </p>
