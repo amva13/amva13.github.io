@@ -28,6 +28,9 @@ const About = () => {
       multimodal models for drug discovery. It combines single-cell biology, biochemistry, and drug effects through multimodal datasets, \
       AI-powered API endpoints, new tasks, model frameworks, and benchmarks.'}
             </p>
+            <p className="desc">
+              {'I am interested in learning more about neurology and neurosurgery and welcome opportunities to do so. Clinical applications of my research are exciting for me to learn about.'}
+              </p>
   <p className="desc">
     {'Outside of work I enjoy several physical challenges and outdoors activities including hiking, the gym, and indoor bouldering (new). I\'ve \
       competed in numerous Spartan Races. I dabble in BJJ/MMA and Swimming. I also enjoy learning about Art, Science, and Technology. I\'m learning several new languages: Chinese, \
