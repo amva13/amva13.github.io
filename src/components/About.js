@@ -26,15 +26,6 @@ const About = () => {
             <p className="desc">
     {'My research at HMS lies at the intersection of single-cell biology, foundation models and LLMs, and DrugAI. I\'ve led the development of the Therapeutic Commons (tdcommons.ai), the Google of experimental data in drug discovery, focusing on contextual AI and tool-based LLMs.'}
             </p>
-            <p className="desc">
-              {'I am interested in learning more about neurology and neurosurgery and welcome opportunities to do so. Clinical applications of my research are exciting for me to learn about.'}
-              </p>
-  <p className="desc">
-    {'Outside of work I enjoy several physical challenges and outdoors activities including hiking, the gym, and indoor bouldering (new). I\'ve \
-      competed in numerous Spartan Races. I dabble in BJJ/MMA and Swimming. I also enjoy learning about Art, Science, and Technology. I\'m learning several new languages: Chinese, \
-      French, German at the moment. I also enjoy music and the performative arts and would always consider a trip to a poetry slam, standup comedy, \
-      the Boston Symphony and others!'}
-    </p>
             {/* <p className="desc">
               {`Alejandro Velez Arce was born and raised in Puerto Rico, born to a culture and friends at school from all over the world, all kinds of ethnicities, and socioeconomic circumstances, which taught him the value of a diverse group of people to provide insights and culture to one's life and perspective. This is an outlook he's carried to multiple aspects of my life and career`}
               </p>
