@@ -24,12 +24,7 @@ const About = () => {
                 took on senior ML roles at companies like Cruise.'}
             </p>
             <p className="desc">
-    {'My research at HMS lies at the intersection of medicine and AI. I\'ve developed software for predicting cellular responses to novel \
-      drug-based and CRISPR perturbations at single-cell resolution. I\'ve also worked on developing LLM agents for numerous therapeutic tasks.\
-      The focus of my work has been on multimodal foundations for therapeutic AI. \
-      I\'ve led the development of the newest release of the Therapeutic Commons (tdcommons.ai). It is designed to catalyze research in \
-      multimodal models for drug discovery. It combines single-cell biology, biochemistry, and drug effects through multimodal datasets, \
-      AI-powered API endpoints, new tasks, model frameworks, and benchmarks.'}
+    {'My research at HMS lies at the intersection of single-cell biology, foundation models and LLMs, and DrugAI. I\'ve led the development of the Therapeutic Commons (tdcommons.ai), the Google of experimental data in drug discovery, focusing on contextual AI and tool-based LLMs.'}
             </p>
             <p className="desc">
               {'I am interested in learning more about neurology and neurosurgery and welcome opportunities to do so. Clinical applications of my research are exciting for me to learn about.'}
