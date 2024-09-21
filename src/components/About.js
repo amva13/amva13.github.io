@@ -12,6 +12,9 @@ const About = () => {
             <h3 className="subtitle">There is nothing impossible for those who will try.</h3>
             <h3 className="title">Engineer, Scientist, Entrepreneur, Inventor</h3>
             <p className="desc">
+              {'Former Bay Area Techie (ex-Pinterest) turned biomedical AI researcher, entrepreneur, and aspiring physician-scientist-engineer.  '}
+            </p>
+            <p className="desc">
               {'I\'m a Pre-Doctoral Research Associate at Harvard Medical School, Department of Biomedical Informatics, \
                 advised by Professor Marinka Zitnik. I completed my S.B. at MIT, where I was co-advised by Justin Solomon (MIT CSAIL) \
                 and Moon Duchin (Tufts Math) to develop metric geometry models and data science algorithms for assessing fairness in political \
