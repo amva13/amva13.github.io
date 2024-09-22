@@ -24,7 +24,7 @@ const About = () => {
                 took on senior ML roles at companies like Cruise.'}
             </p>
             <p className="desc">
-    {'My research at HMS lies at the intersection of single-cell biology, foundation models and LLMs, and DrugAI. I\'ve led the development of the Therapeutic Commons (tdcommons.ai), the Google of experimental data in drug discovery, focusing on contextual AI and tool-based LLMs.'}
+    {'My research at HMS lies at the intersection of single-cell biology, foundation models and LLMs, and DrugAI. I\'ve led the development of the Therapeutic Commons (tdcommons.ai), the Google of biomedical AI experimental data in drug discovery, focusing on contextual AI and tool-based LLMs.'}
             </p>
             {/* <p className="desc">
               {`Alejandro Velez Arce was born and raised in Puerto Rico, born to a culture and friends at school from all over the world, all kinds of ethnicities, and socioeconomic circumstances, which taught him the value of a diverse group of people to provide insights and culture to one's life and perspective. This is an outlook he's carried to multiple aspects of my life and career`}
