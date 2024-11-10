@@ -214,6 +214,19 @@ const About = () => {
                       </div>
                     </li>
                     <li>
+                    <li>
+                      <div className="item">
+                        <div className="item_top">
+                          <h5><a href="https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root">Prime Video @ Amazon)</a></h5>
+                          <span>( 2022 — 2022 )</span>
+                        </div>
+                        <h3>SDEII</h3>
+                        <p>
+                          PV Carrousel
+                        </p>
+                      </div>
+                    </li>
+                    <li>
                       <div className="item">
                         <div className="item_top">
                           <h5><a href="https://pinterest.com">Pinterest Inc</a></h5>
