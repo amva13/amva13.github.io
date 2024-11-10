@@ -12,7 +12,7 @@ const About = () => {
             <h3 className="subtitle">There is nothing impossible for those who will try.</h3>
             <h3 className="title">Engineer, Scientist, Entrepreneur, Inventor</h3>
             <p className="desc">
-              {'Former Bay Area Techie (ex-Pinterest) turned biomedical AI researcher, entrepreneur, and aspiring physician-scientist-engineer.  '}
+              {'Former Bay Area Techie (ex-Pinterest) turned biomedical AI researcher and entrepreneur.  '}
             </p>
             <p className="desc">
               {'I\'m a Pre-Doctoral Research Associate at Harvard Medical School, Department of Biomedical Informatics, \
