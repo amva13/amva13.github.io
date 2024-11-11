@@ -214,7 +214,6 @@ const About = () => {
                       </div>
                     </li>
                     <li>
-                    <li>
                       <div className="item">
                         <div className="item_top">
                           <h5><a href="https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root">Prime Video @ Amazon)</a></h5>
