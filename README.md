@@ -1,1 +1,1 @@
-azure
+migrated to alejandrovelez.com thanks!
