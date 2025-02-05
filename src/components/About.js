@@ -11,20 +11,13 @@ const About = () => {
           <div className="resumo_fn_main_title">
             <h3 className="subtitle">There is nothing impossible for those who will try.</h3>
             <h3 className="title">Engineer, Scientist, Entrepreneur, Inventor</h3>
-            <p className="desc">
-              {'Former Bay Area Techie (ex-Pinterest) turned biomedical AI researcher and entrepreneur.  '}
-            </p>
-            <p className="desc">
-              {'I\'m a Pre-Doctoral Research Associate at Harvard Medical School, Department of Biomedical Informatics, \
-                advised by Professor Marinka Zitnik. I completed my S.B. at MIT, where I was co-advised by Justin Solomon (MIT CSAIL) \
-                and Moon Duchin (Tufts Math) to develop metric geometry models and data science algorithms for assessing fairness in political \
-                redistricting as part of an informal collective called the Metric Geometry and Gerrymandering Group, now \
-                the MGGG Redistricting Lab (mggg.org). Before starting at HMS, I was a software engineer at Pinterest focused on \
-                data science, data engineering, and machine learning. I also launched two companies in the blockchain and drugAI spaces and \
-                took on senior ML roles at companies like Cruise.'}
-            </p>
-            <p className="desc">
-    {'My research at HMS lies at the intersection of single-cell biology, foundation models, and DrugAI. I\'ve led the development of the Therapeutic Commons (tdcommons.ai), focusing on single-cell foundation models and contextual AI.'}
+            <p>
+            I am an AI full-stack developer and researcher. I'm a TechBio accelerationist developing
+             ML methods and software systems in the biomedical and life sciences. My mission is to 
+             drive humanity forward by increasing our population, extending lifespans tenfold, and 
+             expanding human consciousness across the universe. I firmly believe that machine 
+             learning will accelerate scientific discovery at a pace previously seen only in software, 
+             unlocking the pinnacle of human progress.
             </p>
             {/* <p className="desc">
               {`Alejandro Velez Arce was born and raised in Puerto Rico, born to a culture and friends at school from all over the world, all kinds of ethnicities, and socioeconomic circumstances, which taught him the value of a diverse group of people to provide insights and culture to one's life and perspective. This is an outlook he's carried to multiple aspects of my life and career`}
@@ -160,11 +153,11 @@ const About = () => {
                     Education
                   </a>
                 </li>
-                {/* <li className={activeList("tab3")}>
+                <li className={activeList("tab3")}>
                   <a href="#" onClick={() => setToggleList("tab3")}>
                     Skills
                   </a>
-                </li> */}
+                </li>
               </ul>
             </div>
             {/* /Tab: Header */}
@@ -183,20 +176,28 @@ const About = () => {
                           </div>
                           <h3>Research Associate</h3>
                           <h6>
-                          <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11212894/">Latest preprint</a>
-                          </h6>
-                          <h6>
-                          <a href="https://www.linkedin.com/posts/activity-7211075907417952257-jvjq?utm_source=share&utm_medium=member_desktop">Blurb</a>
-                          </h6>
-                          <h6>
-                  <a href="https://github.com/mims-harvard/TDC">Github</a>
-                  </h6>
-                  <h6>
-                  <a href="https://tdcommons.ai/">Therapeutic Commons 2.0 website</a>
-                  </h6>
-                  <h6>
-                  <a href="https://zitniklab.hms.harvard.edu/">Zitnik Lab</a>
-                  </h6>
+                            My research focuses on the development and evaluation of biological foundation models 
+                            at therapeutics tasks.
+                            </h6>
+                            <h6>
+                              I built PyTDC: A multimodal machine learning 
+                            training, evaluation, and inference platform for biomedical 
+                            foundation models.
+                            </h6>
+                            <p>
+                              I did this by overhauling the Therapeutic Data Commons (tdcommons.ai), 
+                            and more information will be available soon. You can checkout our huggingface model hub,
+                            where we've deployed exciting biological foundation models like Geneformer (Theodoris et al.) 
+                            and scGPT (Cui et al.) - https://huggingface.co/tdc . They system already has many thousands of 
+                            downloads.
+                            </p>
+                            <p>
+                              As a whole, including the legacy TDC platform which I also own, we have approximately
+                              30K MAU and a booming open-source community.
+                            </p>
+                            <h6>
+                              Other areas of research have included LLM agents and graph representation learning.
+                            </h6>
                         </div>
                       </li>
                       <li>
@@ -205,25 +206,26 @@ const About = () => {
                           <h5><a href="https://getcruise.com">Cruise Automation LLC</a></h5>
                           <span>( 2022 — 2022 )</span>
                         </div>
-                        <h3>Senior Software Engineer</h3>
+                        <h3>Senior Machine Learning Software Engineer</h3>
                         <p>
-                          First company to bring fully autonomous vehicles to San Francisco. 
-                          Cruise is building the world’s most advanced self-driving vehicles 
-                          to safely connect people with the places, things, and experiences they care about.
+                          Developed uncertainty quantification pipeline for computer vision models and 
+                          machine learning infrastructure for data labeling platform. Decided to leave to 
+                          pursue entrepreneurship and more generally a career break.
                         </p>
                       </div>
                     </li>
                     <li>
                       <div className="item">
                         <div className="item_top">
-                          <h5><a href="https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root">Prime Video @ Amazon)</a></h5>
-                          <span>( 2022 — 2022 )</span>
+                          <h5><a href="https://pinterest.com">Prime Video @ Amazon</a></h5>
+                          <span>( 2018 - 2021 )</span>
                         </div>
-                        <h3>SDEII</h3>
+                        <h3>SDE II</h3>
                         <p>
-                          PV Carrousel
+                          Onboarded Prime Video Carrousel team but left for Cruise.
                         </p>
                       </div>
+                      
                     </li>
                     <li>
                       <div className="item">
@@ -231,24 +233,15 @@ const About = () => {
                           <h5><a href="https://pinterest.com">Pinterest Inc</a></h5>
                           <span>( 2018 - 2021 )</span>
                         </div>
-                        <h3>Software Engineer II</h3>
+                        <h3>Software Engineer II, Data and Machine Learning</h3>
                         <p>
-                          The world's foremost visual inspiration search engine. Pinterest is helping pinners live the life they love.
+                          I worked on a variety of exciting projects, starting with large scale distributed systems for data analyics, 
+                          the online a/b experimentation platform, a gpu frameowork for streamlining AI inferencing and deployment, and 
+                          optimizations on the Pinterest Ads ranking model.
                         </p>
                       </div>
                       
                     </li>
-                    {/* <li>
-                      <div className="item">
-                        <div className="item_top">
-                          <h5><a href="https://mit.edu">M.I.T. Computer Science and Artificial Intelligence Lab</a></h5>
-                          <span>( 2017 - 2018 )</span>
-                        </div>
-                        <h3>Researcher</h3>
-                        <p>
-                        </p>
-                      </div>
-                    </li> */}
                   </ul>
                 </div>
                 {/* /Boxed List */}
@@ -267,46 +260,8 @@ const About = () => {
                         </div>
                         <h3>B.S. Computer Science</h3>
                         <h5>Minor in Management, Concentration in Economics</h5>
-                        {/* <p>
-                          Built out a geometric computing system at MIT CSAIL
-                          which was used to evaluate Gerrymandering cases in
-                          Virginia.
-                        </p>
-                        <p>
-                          Selected for MIT's Washington DC Summer Internship Program and
-                          interned at the World Bank where he collaborated on producing a report
-                          studying youth employment initiatives around the world.
-                        </p> */}
                       </div>
                     </li>
-                    {/* <li>
-                      <div className="item">
-                        <div className="item_top">
-                          <h5>Edu University</h5>
-                          <span>( 2011 — 2014 )</span>
-                        </div>
-                        <h3>Master Degree</h3>
-                        <p>
-                          Adipisicing Lorem ipsum dolor sit amet, consectetur
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.{" "}
-                        </p>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="item">
-                        <div className="item_top">
-                          <h5>Clolumbia College</h5>
-                          <span>( 2007 — 2011 )</span>
-                        </div>
-                        <h3>Bachelor Degree</h3>
-                        <p>
-                          Adipisicing Lorem ipsum dolor sit amet, consectetur
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.{" "}
-                        </p>
-                      </div>
-                    </li> */}
                   </ul>
                 </div>
                 {/* /Boxed List */}
@@ -316,9 +271,23 @@ const About = () => {
               <div id="tab3" className={`tab_item ${activeList("tab3")}`}>
                 {/* Progress Bar */}
                 <div className="resumo_fn_progress_bar">
+                <div className="progress_item open" data-value={88}>
+                    <div className="item_in">
+                      <h3 className="progress_title">LLM Agents</h3>
+                      <span
+                        className="progress_percent"
+                        style={{ right: "12%" }}
+                      >
+                        88%
+                      </span>
+                      <div className="bg_wrap">
+                        <div className="progress_bg" style={{ width: "88%" }} />
+                      </div>
+                    </div>
+                  </div>
                   <div className="progress_item open" data-value={92}>
                     <div className="item_in">
-                      <h3 className="progress_title">Adobe Photoshop</h3>
+                      <h3 className="progress_title">AI apps</h3>
                       <span
                         className="progress_percent"
                         style={{ right: "8%" }}
@@ -330,23 +299,23 @@ const About = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="progress_item open" data-value={95}>
+                  <div className="progress_item open" data-value={98}>
                     <div className="item_in">
-                      <h3 className="progress_title">HTML5 &amp; CSS3</h3>
+                      <h3 className="progress_title">ML platforms (inference, training, benchmarking, data)</h3>
                       <span
                         className="progress_percent"
-                        style={{ right: "5%" }}
+                        style={{ right: "8%" }}
                       >
-                        95%
+                        98%
                       </span>
                       <div className="bg_wrap">
-                        <div className="progress_bg" style={{ width: "95%" }} />
+                        <div className="progress_bg" style={{ width: "98%" }} />
                       </div>
                     </div>
                   </div>
                   <div className="progress_item open" data-value={80}>
                     <div className="item_in">
-                      <h3 className="progress_title">WordPress</h3>
+                      <h3 className="progress_title">Model development (design, training)</h3>
                       <span
                         className="progress_percent"
                         style={{ right: "20%" }}
@@ -358,41 +327,153 @@ const About = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="progress_item open" data-value={85}>
+                  <div className="progress_item open" data-value={92}>
                     <div className="item_in">
-                      <h3 className="progress_title">Adobe Illustrator</h3>
+                      <h3 className="progress_title">Model benchmarking and deployment (inference, metrics, benchmark design, model APIs)</h3>
                       <span
                         className="progress_percent"
-                        style={{ right: "15%" }}
+                        style={{ right: "8%" }}
                       >
-                        85%
+                        92%
                       </span>
                       <div className="bg_wrap">
-                        <div className="progress_bg" style={{ width: "85%" }} />
+                        <div className="progress_bg" style={{ width: "92%" }} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="progress_item open" data-value={75}>
+                    <div className="item_in">
+                      <h3 className="progress_title">PyTorch</h3>
+                      <span
+                        className="progress_percent"
+                        style={{ right: "25%" }}
+                      >
+                        75%
+                      </span>
+                      <div className="bg_wrap">
+                        <div className="progress_bg" style={{ width: "75%" }} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="progress_item open" data-value={80}>
+                    <div className="item_in">
+                      <h3 className="progress_title">Huggingface Transformers</h3>
+                      <span
+                        className="progress_percent"
+                        style={{ right: "20%" }}
+                      >
+                        80%
+                      </span>
+                      <div className="bg_wrap">
+                        <div className="progress_bg" style={{ width: "80%" }} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="progress_item open" data-value={80}>
+                    <div className="item_in">
+                      <h3 className="progress_title">Python</h3>
+                      <span
+                        className="progress_percent"
+                        style={{ right: "5%" }}
+                      >
+                        95%
+                      </span>
+                      <div className="bg_wrap">
+                        <div className="progress_bg" style={{ width: "95%" }} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="progress_item open" data-value={85}>
+                    <div className="item_in">
+                      <h3 className="progress_title">Pandas, Scipy, Scikit, Numpy</h3>
+                      <span
+                        className="progress_percent"
+                        style={{ right: "5%" }}
+                      >
+                        95%
+                      </span>
+                      <div className="bg_wrap">
+                        <div className="progress_bg" style={{ width: "95%" }} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="progress_item open" data-value={85}>
+                    <div className="item_in">
+                      <h3 className="progress_title">C++</h3>
+                      <span
+                        className="progress_percent"
+                        style={{ right: "10%" }}
+                      >
+                        90%
+                      </span>
+                      <div className="bg_wrap">
+                        <div className="progress_bg" style={{ width: "90%" }} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="progress_item open" data-value={80}>
+                    <div className="item_in">
+                      <h3 className="progress_title">TensorRT, Tensorflow Serving, Torchserve</h3>
+                      <span
+                        className="progress_percent"
+                        style={{ right: "20%" }}
+                      >
+                        80%
+                      </span>
+                      <div className="bg_wrap">
+                        <div className="progress_bg" style={{ width: "80%" }} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="progress_item open" data-value={90}>
+                    <div className="item_in">
+                      <h3 className="progress_title">OpenAI APIs</h3>
+                      <span
+                        className="progress_percent"
+                        style={{ right: "10%" }}
+                      >
+                        90%
+                      </span>
+                      <div className="bg_wrap">
+                        <div className="progress_bg" style={{ width: "90%" }} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="progress_item open" data-value={90}>
+                    <div className="item_in">
+                      <h3 className="progress_title">Javascript, Reactjs, Nextjs</h3>
+                      <span
+                        className="progress_percent"
+                        style={{ right: "10%" }}
+                      >
+                        90%
+                      </span>
+                      <div className="bg_wrap">
+                        <div className="progress_bg" style={{ width: "90%" }} />
                       </div>
                     </div>
                   </div>
                 </div>
-
                 {/* /Progress Bar */}
                 {/* Description */}
                 <div className="resumo_fn_desc">
                   <p>
-                    A freelance creative designer with a love for minimal
-                    design, clean typography and well-written code, located in
-                    San Francisco. Provide high quality and cost effective
-                    offshore web and software development services. Wide range
-                    of web and software development services across the world.
+                  An AI full-stack developer with 4+ years of experience in
+                  building AI applications and platforms. Additional experience in 
+                  developing, training, benchmarking, and deploying large-scale models 
+                  (LLMs, ranking models, etc.). Have also built LLM agent systems. 
+                  Most recent experience has been in biomedical domain, but I have 
+                  worked on a variety of domains.
                   </p>
                 </div>
+              </div>
+              </div>
               </div>
               {/* /#2 tab content */}
             </div>
             {/* /Tab: Content */}
           </div>
           {/* /Tabs Shortcode */}
-        </div>
-      </div>
     </section>
   );
 };

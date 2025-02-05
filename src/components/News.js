@@ -1,5 +1,5 @@
 import { useState } from "react";
-// import NewsModalbox from "./NewsModalbox";
+import NewsModalbox from "./NewsModalbox";
 
 const News = () => {
   const [modal, setModal] = useState(false);
@@ -29,7 +29,7 @@ const News = () => {
 
   return (
     <section id="news">
-      {/* {modal && <NewsModalbox close={setModal} value={modalValue} />} */}
+      {modal && <NewsModalbox close={setModal} value={modalValue} />}
       <div className="container">
         <div className="roww">
           {/* Main Title */}
@@ -48,81 +48,84 @@ const News = () => {
                   data-index={1}
                 >
                   <div className="img_holder">
-                    <img src="img/news/nxtattempt.png" alt="image" />
-                    <div className="abs_img" data-bg-img="img/news/nxtattempt.png" />
+                    <img src="img/news/pytdc_model_server.png" alt="image" />
+                    <div className="abs_img" data-bg-img="img/news/pytdc_model_server.png" />
                   </div>
                   <div className="title_holder">
-                    <p>May 22, 2022</p>
+                    <p>Jan 29, 2025</p>
                     <h3>
-                      <a href="https://nftcalendar.io/news/apliko-emblem-interview/">
-                        We're Building the Soon-to-Be Greatest Decentralized Talent Platform — Creator's Interview 
+                      <a href="https://huggingface.co/tdc">
+                      PyTDC: A multimodal machine learning training, evaluation, and inference platform 
+                      for biomedical foundation models (more details to be released).
                       </a>
                     </h3>
-                  </div>
-                  <div className="fn__hidden">
-                    <p className="fn__cat">May 22, 2022</p>
-                    <h3 className="fn__title">
-                      NFT Calendar 
-                    </h3>
-                    <div className="img_holder">
-                      <img src="img/news/nxtattempt.png" alt="image" />
-                      <div className="abs_img" data-bg-img="img/news/nxtattempt.png" />
-                    </div>
-                    <p className="fn__desc">
-                      Sed ornare tellus a odio bibendum, at tristique sapien
-                      malesuada. Proin sagittis maximus accumsan. Class aptent
-                      taciti sociosqu ad litora torquent per conubia nostra, per
-                      inceptos himenaeos. Lorem ipsum dolor sit amet,
-                      consectetur adipiscing elit. Quisque gravida quam sit amet
-                      elit varius tempor. Pellentesque purus eros, blandit eu
-                      mollis vel, commodo eget orci. Proin vel hendrerit ex.
-                      Vivamus ut ex at nunc consectetur efficitur ut quis est.
-                      Proin posuere orci eget vulputate fringilla. Curabitur
-                      placerat massa eget efficitur cursus. Sed sollicitudin
-                      rhoncus blandit. Nam accumsan vestibulum enim. Sed rutrum
-                      eu leo pellentesque lobortis. Integer ornare fringilla
-                      arcu, eu mattis risus convallis in.
-                    </p>
-                    <p className="fn__desc">
-                      Quisque dui metus, eleifend at enim ac, imperdiet sagittis
-                      dolor. Vestibulum ipsum quam, feugiat non velit sit amet,
-                      pulvinar varius nisl. Mauris tristique, ipsum sit amet
-                      lacinia congue, mauris magna tempus nibh, in mollis eros
-                      enim a tortor. Morbi enim arcu, tristique vitae mi nec,
-                      hendrerit pharetra metus. Phasellus id feugiat purus. In
-                      vel elit eu lacus ultrices feugiat. Etiam at aliquet mi.
-                      Nunc sit amet libero sit amet lectus pellentesque
-                      sagittis. Curabitur blandit ante quis erat dapibus
-                      viverra. Maecenas consequat pulvinar pulvinar. Donec in
-                      aliquam arcu. Donec eu laoreet dolor. Ut nisi lectus,
-                      pulvinar ac mattis quis, pretium ac nulla. Morbi sed
-                      ligula ultrices, ornare mauris id, auctor arcu. Sed
-                      pellentesque ex sed erat faucibus, ultrices vehicula ex
-                      dapibus. Aenean venenatis metus eros, vel faucibus lorem
-                      porttitor eu.
-                    </p>
-                    <p className="fn__desc">
-                      Sed porttitor augue erat, vitae convallis odio viverra id.
-                      In nec finibus elit. Nullam ac sodales nunc, vel sagittis
-                      elit. Ut condimentum ex ipsum, eu ornare odio aliquam eu.
-                      Ut iaculis eros quam, eu bibendum tellus convallis quis.
-                      Donec sapien risus, consequat ut magna nec, interdum porta
-                      nisl. Vivamus pulvinar hendrerit finibus. Nunc molestie
-                      lacinia risus, id mattis nunc euismod ac. Nam eu orci
-                      felis. Quisque ut elementum quam. Vivamus pulvinar nisi
-                      nunc, ut faucibus turpis tincidunt eget. Fusce nec ex quis
-                      odio laoreet consequat. Duis faucibus metus id feugiat
-                      sodales. Sed eu ligula eget quam ultricies tincidunt.
-                      Morbi sodales nunc ultrices justo pellentesque, ac mattis
-                      mi sagittis. Morbi ut consectetur neque.
-                    </p>
                   </div>
                 </div>
               </li>
               <li>
                 <div
                   className="item modal_item"
+                  onClick={() => modalValueSet(2)}
+                  data-index={1}
+                >
+                  <div className="img_holder">
+                    <img src="img/news/signals_in_the_cells.png" alt="image" />
+                    <div className="abs_img" data-bg-img="img/news/signals_in_the_cells.png" />
+                  </div>
+                  <div className="title_holder">
+                    <p>Oct 13th, 2024</p>
+                    <h3>
+                      <a href="https://openreview.net/pdf?id=kL8dlYp6IM">
+                      (NeurIPS'24 AIDrugX Spotlight) Signals in the Cells: Multimodal and Contextualized Machine Learning Foundations for Therapeutics.
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </li>
+              <li className={!hiddenItem ? "" : "be_animated"}>
+                <div
+                  className="item modal_item"
                   onClick={() => modalValueSet(3)}
+                  data-index={3}
+                >
+                  <div className="img_holder">
+                    <img src="img/news/AClearning.png" alt="image" />
+                    <div className="abs_img" data-bg-img="img/news/AClearning.png" />
+                  </div>
+                  <div className="title_holder">
+                    <p>November 7, 2024</p>
+                    <h3>
+                      <a href="https://chemrxiv.org/engage/chemrxiv/article-details/6703d9c351558a15ef5b9e06">
+                      Activity Cliff-Informed Contrastive Learning for Molecular Property Prediction
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </li>
+              <li className={!hiddenItem ? "" : "be_animated"}>
+                <div
+                  className="item modal_item"
+                  onClick={() => modalValueSet(4)}
+                  data-index={3}
+                >
+                  <div className="img_holder">
+                    <img src="img/news/llmagents.png" alt="image" />
+                    <div className="abs_img" data-bg-img="img/news/llmagents.png" />
+                  </div>
+                  <div className="title_holder">
+                    <p>2024-2025</p>
+                    <h3>
+                      <a href="https://github.com/amva13/growth-llm">
+                      Exciting LLM projects at HMS! Click image for more.
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </li>
+              <li className={!hiddenItem ? "" : "be_animated"}>
+                <div
+                  className="item modal_item"
+                  onClick={() => modalValueSet(5)}
                   data-index={3}
                 >
                   <div className="img_holder">
@@ -136,142 +139,6 @@ const News = () => {
                       My article featured in the Pinterest Engineering Blog
                       </a>
                     </h3>
-                  </div>
-                  <div className="fn__hidden">
-                    <p className="fn__cat">Sep 26, 2019</p>
-                    <h3 className="fn__title">
-                      My article featured in the Pinterest Engineering Blog
-                    </h3>
-                    <div className="img_holder">
-                      <a href="https://medium.com/pinterest-engineering/pinalyticsdb-a-time-series-database-on-top-of-hbase-946f236bb29a"><img src="img/news/pinalytics.png" alt="image" /></a>
-                      <div className="abs_img" data-bg-img="img/news/pinalytics.png" />
-                    </div>
-                    <p className="fn__desc">
-                      Sed ornare tellus a odio bibendum, at tristique sapien
-                      malesuada. Proin sagittis maximus accumsan. Class aptent
-                      taciti sociosqu ad litora torquent per conubia nostra, per
-                      inceptos himenaeos. Lorem ipsum dolor sit amet,
-                      consectetur adipiscing elit. Quisque gravida quam sit amet
-                      elit varius tempor. Pellentesque purus eros, blandit eu
-                      mollis vel, commodo eget orci. Proin vel hendrerit ex.
-                      Vivamus ut ex at nunc consectetur efficitur ut quis est.
-                      Proin posuere orci eget vulputate fringilla. Curabitur
-                      placerat massa eget efficitur cursus. Sed sollicitudin
-                      rhoncus blandit. Nam accumsan vestibulum enim. Sed rutrum
-                      eu leo pellentesque lobortis. Integer ornare fringilla
-                      arcu, eu mattis risus convallis in.
-                    </p>
-                    <p className="fn__desc">
-                      Quisque dui metus, eleifend at enim ac, imperdiet sagittis
-                      dolor. Vestibulum ipsum quam, feugiat non velit sit amet,
-                      pulvinar varius nisl. Mauris tristique, ipsum sit amet
-                      lacinia congue, mauris magna tempus nibh, in mollis eros
-                      enim a tortor. Morbi enim arcu, tristique vitae mi nec,
-                      hendrerit pharetra metus. Phasellus id feugiat purus. In
-                      vel elit eu lacus ultrices feugiat. Etiam at aliquet mi.
-                      Nunc sit amet libero sit amet lectus pellentesque
-                      sagittis. Curabitur blandit ante quis erat dapibus
-                      viverra. Maecenas consequat pulvinar pulvinar. Donec in
-                      aliquam arcu. Donec eu laoreet dolor. Ut nisi lectus,
-                      pulvinar ac mattis quis, pretium ac nulla. Morbi sed
-                      ligula ultrices, ornare mauris id, auctor arcu. Sed
-                      pellentesque ex sed erat faucibus, ultrices vehicula ex
-                      dapibus. Aenean venenatis metus eros, vel faucibus lorem
-                      porttitor eu.
-                    </p>
-                    <p className="fn__desc">
-                      Sed porttitor augue erat, vitae convallis odio viverra id.
-                      In nec finibus elit. Nullam ac sodales nunc, vel sagittis
-                      elit. Ut condimentum ex ipsum, eu ornare odio aliquam eu.
-                      Ut iaculis eros quam, eu bibendum tellus convallis quis.
-                      Donec sapien risus, consequat ut magna nec, interdum porta
-                      nisl. Vivamus pulvinar hendrerit finibus. Nunc molestie
-                      lacinia risus, id mattis nunc euismod ac. Nam eu orci
-                      felis. Quisque ut elementum quam. Vivamus pulvinar nisi
-                      nunc, ut faucibus turpis tincidunt eget. Fusce nec ex quis
-                      odio laoreet consequat. Duis faucibus metus id feugiat
-                      sodales. Sed eu ligula eget quam ultricies tincidunt.
-                      Morbi sodales nunc ultrices justo pellentesque, ac mattis
-                      mi sagittis. Morbi ut consectetur neque.
-                    </p>
-                  </div>
-                </div>
-              </li>
-              <li className={!hiddenItem ? "" : "be_animated"}>
-                <div
-                  className="item modal_item"
-                  onClick={() => modalValueSet(5)}
-                  data-index={5}
-                >
-                  <div className="img_holder">
-                    <img src="img/news/mitdc.png" alt="image" />
-                    <div className="abs_img" data-bg-img="img/news/mitdc.png" />
-                  </div>
-                  <div className="title_holder">
-                    <p>July, 2017</p>
-                    <h3>
-                      <a href="http://summerwash.mit.edu/interns/2017/alejandro-velez-arce">
-                        Selected by the MIT Economics Department for Washington DC program with the World Bank.
-                      </a>
-                    </h3>
-                  </div>
-                  <div className="fn__hidden">
-                    <p className="fn__cat">July, 2017</p>
-                    <h3 className="fn__title">
-                    Selected by the MIT Economics Department for Washington DC program with the World Bank.
-                    </h3>
-                    <div className="img_holder">
-                      <img src="img/news/mitdc.png" alt="image" />
-                      <div className="abs_img" data-bg-img="img/news/mitdc.png" />
-                    </div>
-                    <p className="fn__desc">
-                      Sed ornare tellus a odio bibendum, at tristique sapien
-                      malesuada. Proin sagittis maximus accumsan. Class aptent
-                      taciti sociosqu ad litora torquent per conubia nostra, per
-                      inceptos himenaeos. Lorem ipsum dolor sit amet,
-                      consectetur adipiscing elit. Quisque gravida quam sit amet
-                      elit varius tempor. Pellentesque purus eros, blandit eu
-                      mollis vel, commodo eget orci. Proin vel hendrerit ex.
-                      Vivamus ut ex at nunc consectetur efficitur ut quis est.
-                      Proin posuere orci eget vulputate fringilla. Curabitur
-                      placerat massa eget efficitur cursus. Sed sollicitudin
-                      rhoncus blandit. Nam accumsan vestibulum enim. Sed rutrum
-                      eu leo pellentesque lobortis. Integer ornare fringilla
-                      arcu, eu mattis risus convallis in.
-                    </p>
-                    <p className="fn__desc">
-                      Quisque dui metus, eleifend at enim ac, imperdiet sagittis
-                      dolor. Vestibulum ipsum quam, feugiat non velit sit amet,
-                      pulvinar varius nisl. Mauris tristique, ipsum sit amet
-                      lacinia congue, mauris magna tempus nibh, in mollis eros
-                      enim a tortor. Morbi enim arcu, tristique vitae mi nec,
-                      hendrerit pharetra metus. Phasellus id feugiat purus. In
-                      vel elit eu lacus ultrices feugiat. Etiam at aliquet mi.
-                      Nunc sit amet libero sit amet lectus pellentesque
-                      sagittis. Curabitur blandit ante quis erat dapibus
-                      viverra. Maecenas consequat pulvinar pulvinar. Donec in
-                      aliquam arcu. Donec eu laoreet dolor. Ut nisi lectus,
-                      pulvinar ac mattis quis, pretium ac nulla. Morbi sed
-                      ligula ultrices, ornare mauris id, auctor arcu. Sed
-                      pellentesque ex sed erat faucibus, ultrices vehicula ex
-                      dapibus. Aenean venenatis metus eros, vel faucibus lorem
-                      porttitor eu.
-                    </p>
-                    <p className="fn__desc">
-                      Sed porttitor augue erat, vitae convallis odio viverra id.
-                      In nec finibus elit. Nullam ac sodales nunc, vel sagittis
-                      elit. Ut condimentum ex ipsum, eu ornare odio aliquam eu.
-                      Ut iaculis eros quam, eu bibendum tellus convallis quis.
-                      Donec sapien risus, consequat ut magna nec, interdum porta
-                      nisl. Vivamus pulvinar hendrerit finibus. Nunc molestie
-                      lacinia risus, id mattis nunc euismod ac. Nam eu orci
-                      felis. Quisque ut elementum quam. Vivamus pulvinar nisi
-                      nunc, ut faucibus turpis tincidunt eget. Fusce nec ex quis
-                      odio laoreet consequat. Duis faucibus metus id feugiat
-                      sodales. Sed eu ligula eget quam ultricies tincidunt.
-                      Morbi sodales nunc ultrices justo pellentesque, ac mattis
-                      mi sagittis. Morbi ut consectetur neque.
-                    </p>
                   </div>
                 </div>
               </li>
@@ -292,64 +159,6 @@ const News = () => {
                         Research Assistantship - CSAIL Geometric Data Processing Group 2017
                       </a>
                     </h3>
-                  </div>
-                  <div className="fn__hidden">
-                    <p className="fn__cat">June, 2022</p>
-                    <h3 className="fn__title">
-                    Research Assistantship - CSAIL Geometric Data Processing Group 2017
-                    </h3>
-                    <div className="img_holder">
-                      <img src="img/news/acadium.jpg" alt="image" />
-                      <div className="abs_img" data-bg-img="img/news/gdp.jpg" />
-                    </div>
-                    <p className="fn__desc">
-                      Sed ornare tellus a odio bibendum, at tristique sapien
-                      malesuada. Proin sagittis maximus accumsan. Class aptent
-                      taciti sociosqu ad litora torquent per conubia nostra, per
-                      inceptos himenaeos. Lorem ipsum dolor sit amet,
-                      consectetur adipiscing elit. Quisque gravida quam sit amet
-                      elit varius tempor. Pellentesque purus eros, blandit eu
-                      mollis vel, commodo eget orci. Proin vel hendrerit ex.
-                      Vivamus ut ex at nunc consectetur efficitur ut quis est.
-                      Proin posuere orci eget vulputate fringilla. Curabitur
-                      placerat massa eget efficitur cursus. Sed sollicitudin
-                      rhoncus blandit. Nam accumsan vestibulum enim. Sed rutrum
-                      eu leo pellentesque lobortis. Integer ornare fringilla
-                      arcu, eu mattis risus convallis in.
-                    </p>
-                    <p className="fn__desc">
-                      Quisque dui metus, eleifend at enim ac, imperdiet sagittis
-                      dolor. Vestibulum ipsum quam, feugiat non velit sit amet,
-                      pulvinar varius nisl. Mauris tristique, ipsum sit amet
-                      lacinia congue, mauris magna tempus nibh, in mollis eros
-                      enim a tortor. Morbi enim arcu, tristique vitae mi nec,
-                      hendrerit pharetra metus. Phasellus id feugiat purus. In
-                      vel elit eu lacus ultrices feugiat. Etiam at aliquet mi.
-                      Nunc sit amet libero sit amet lectus pellentesque
-                      sagittis. Curabitur blandit ante quis erat dapibus
-                      viverra. Maecenas consequat pulvinar pulvinar. Donec in
-                      aliquam arcu. Donec eu laoreet dolor. Ut nisi lectus,
-                      pulvinar ac mattis quis, pretium ac nulla. Morbi sed
-                      ligula ultrices, ornare mauris id, auctor arcu. Sed
-                      pellentesque ex sed erat faucibus, ultrices vehicula ex
-                      dapibus. Aenean venenatis metus eros, vel faucibus lorem
-                      porttitor eu.
-                    </p>
-                    <p className="fn__desc">
-                      Sed porttitor augue erat, vitae convallis odio viverra id.
-                      In nec finibus elit. Nullam ac sodales nunc, vel sagittis
-                      elit. Ut condimentum ex ipsum, eu ornare odio aliquam eu.
-                      Ut iaculis eros quam, eu bibendum tellus convallis quis.
-                      Donec sapien risus, consequat ut magna nec, interdum porta
-                      nisl. Vivamus pulvinar hendrerit finibus. Nunc molestie
-                      lacinia risus, id mattis nunc euismod ac. Nam eu orci
-                      felis. Quisque ut elementum quam. Vivamus pulvinar nisi
-                      nunc, ut faucibus turpis tincidunt eget. Fusce nec ex quis
-                      odio laoreet consequat. Duis faucibus metus id feugiat
-                      sodales. Sed eu ligula eget quam ultricies tincidunt.
-                      Morbi sodales nunc ultrices justo pellentesque, ac mattis
-                      mi sagittis. Morbi ut consectetur neque.
-                    </p>
                   </div>
                 </div>
               </li>
