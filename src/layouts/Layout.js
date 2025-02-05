@@ -22,7 +22,7 @@ const Layout = ({ children }) => {
   return (
     <Fragment>
       <Head>
-        <title>Introduction to Alejandro Velez Arce</title>
+        <title>Intro to Alejandro 'Alex' Velez Arce</title>
         <meta property="og:title" content="Intro to Alejandro 'Alex' Velez Arce"/>
         <meta property="og:type" content="website"/>
         <meta property="og:image" content="public/img/alphunt.jpg"/>

@@ -19,39 +19,6 @@ const About = () => {
              learning will accelerate scientific discovery at a pace previously seen only in software, 
              unlocking the pinnacle of human progress.
             </p>
-            {/* <p className="desc">
-              {`Alejandro Velez Arce was born and raised in Puerto Rico, born to a culture and friends at school from all over the world, all kinds of ethnicities, and socioeconomic circumstances, which taught him the value of a diverse group of people to provide insights and culture to one's life and perspective. This is an outlook he's carried to multiple aspects of my life and career`}
-              </p>
-              <p className="desc">
-              {`His interest in the sciences, especially in physics and mathematics, as well as a budding passion for entrepreneurship led him to apply to and choose MIT for his undergraduate degree. In high school, he'd shown strength in math and science, built great relationships with his teachers in those fields, and had great success in scientific research pursuits, which led him to believe the communities and intellectual pursuits of science and engineering would be things he'd enjoy. This ended up very much being the case, as his choice of MIT was driven quite strongly by the people he met throughout the pre-decision process. In addition, he'd lived in a commonwealth whose potential, at the time, was inhibited by a bloated and sluggish government, and massive bureaucratic private sector institutions unable to provide the innovation and prosperity the great people of Puerto Rico needed to unleash their full potential. This drove his interest in entrepreneurship, and he looked to many lovely people he met in Puerto Rico who had started their own business for inspiration. However, he was also driven by academia, having a very accomplished academic as a Father, who also happened to go to MIT, and he looked to how he could connect entrepreneurial passion with academic greatness and scientific achievement beyond what was exhibited by the entrepreneurs he'd been exposed to in my day-to-day life.`}
-              </p>
-              <p className="desc">
-              {`His professional life has been marked by a passion for computer science. As a young student, he was amazed by the sheer power of the field's problem-solving philosophy and the degree of impact one could have in so many fields, being amazed by the computational modeling of human cognition he learned about through his coursework and his ability to have impact across gerrymandering cases all over the nation through code he developed during research at MIT’s Computer Science and Artificial Intelligence Laboratory. The latter experience was his first practical exposure to high performance scientific computing. The ability to use different aspects of computation, from geometric algorithm optimization to distributed systems for data processing and Python/C++ programming considerations to advance the practice of science on a high impact problem in social justice was exciting to him and researching and leveraging applied mathematical techniques for modeling political redistricting systems allowed him to take on challenges in political science in a way better suiting his interests. He would carry this interest in high performance scientific computation further in his career.`}
-              </p>
-              <p className="desc">
-              {`At Pinterest, he developed systems advancing online a/b experimentation, simulation pipelines and statistical frameworks for assessing systemic risk of the experimentation platform, and high performance computing systems for machine learning online advertising ranking models and data storage and processing. Despite his success at Pinterest, having been promoted within my first year at the company and published in the Pinterest Engineering Blog, he went on to face tremendous mental health challenges after his first two years in the company, exacerbated by the most significant global event in my lifetime, the global shutdowns associated with the COVID pandemic. It was during this time that, after also evaluating previous episodes of struggles with mental health, he was diagnosed with bipolar manic disorder. He worked through distinct medical and behavioral treatments between 2020 and 2022 to reach where he is now, having turned the corner and developed stronger mental health resilience and positivity than ever before. However, this experience, along with misdiagnoses and battles with the side effects of some of the medications, ignited an interest in his researching the use of AI and scientific computing to advance the production and discovery of new, cheaper, and better medications, which led to his launching Alphunt, a generative artificial intelligence platform for drug discovery. In particular, his interest is in developing AI and computing systems leveraging the converging advances in science and modeling technology for molecular simulation and its promise in the areas of energy, sustainability, and health.`}
-              </p>
-              <p className="desc">
-              {`Outside of this he has great interest in using AI and web3 technologies to help people unleash their creative potential and monetize their passions. Taking on challenges in the creator economy was a problem of deep interest in previous entrepreneurial ventures (Apliko) and at Pinterest. He's also interested in the potential Generative AI has for helping more people create beautiful art and have great impact in music, digital artwork and more.`}
-              </p>
-              <p className="desc">
-              {`He also freelances and loves taking on new challenges, developing innovative solutions, and building products and systems making people's lives optimal.`}
-              </p>
-              <p className="desc">
-              {`Outside of work and entrepreneurial pursuits, he enjoys practicing brazilian jiujitsu and mixed martial arts, health and wellness, challenging himself to different athletic challenges (ie. spartan races and marathons), exploring artwork digital, via NFTs and more, and non-digital, and watching Ultimate Fighting Championship (UFC) and the English Premier League.`}
-              </p> */}
-            {/* <p className="desc">
-              {`I most recently worked on launching my own company, during which I led entire product development for a consumer-fintech product which obtained 200+ signups. We are a Microsoft for Startups Founders Hub member company. I was further recognized by YCombinator as being in the top 10% of their "startup school" founders.`}
-            </p> */}
-            {/* <p className="desc">
-              {`Prior to that I worked at a social media company, boasting 450M+ MAU, where I worked on machine learning for ads ranking and data engineering in growth experimentation, large scale distributed systems, and led cross-functional projects of up to 15+ people improving KPIs 20-50% across projects.`}
-              </p>
-            <p className="desc">
-              {`I'm an MIT Computer Science alum. While there I was a Research Assistant at the MIT Computer Science and Artificial Intelligence Laboratory, where I worked with the Geometric Data Processing Group and advanced Gerrymandering Analytics Capabilities by producing a python geometric computing library still used in legal cases and by the Metric Geometry and Gerrymandering Group at Tufts University.`}
-              </p>
-              <p className="desc">
-                {`Outside of work I enjoy many latin dances, international traveling, love the outdoors, exploring new cuisines, obstacle racing, athletics, and podcasts through spotify and youtube.`}
-                </p> */}
           </div>
           {/* /Main Title */}
           {/* About Information */}
@@ -59,49 +26,13 @@ const About = () => {
             <div className="about_left">
               <table>
                 <tbody>
-                  {/* <tr>
-                    <th>Name</th>
-                    <th>Alejandro Velez</th>
-                  </tr> */}
-                  {/* <tr>
-                    <th>Birthday</th>
-                    <th>4th April 1990</th>
-                  </tr>
-                  <tr>
-                    <th>Age</th>
-                    <th>31 years</th>
-                  </tr> */}
-                  {/* <tr>
-                    <th>Based in</th>
-                    <th>San Francisco</th>
-                  </tr> */}
-                  {/* <tr>
-                    <th>Phone</th>
-                    <th>
-                      <a href="tel:+3846923442364">(+38) 469 2344 2364</a>
-                    </th>
-                  </tr> */}
-                  {/* <tr>
-                    <th>Email</th>
-                    <th>
-                      <a href="mailto:trendycoder.com@gmail.com">
-                        trendycoder.com@gmail.com
-                      </a>
-                    </th>
-                  </tr> */}
-                  {/* <tr>
-                    <th>Skype</th>
-                    <th>
-                      <a href="skype:brucewilson.90">brucewilson.90</a>
-                    </th>
-                  </tr> */}
                 </tbody>
               </table>
             </div>
             <div className="about_right">
               {/* Download CV Button */}
-              {/* <div className="resumo_fn_cv_btn">
-                <a href="img/cv.jpg" download>
+              <div className="resumo_fn_cv_btn">
+                <a href="img/cv.pdf" download>
                   <span className="icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -133,7 +64,7 @@ const About = () => {
                   </span>
                   <span>Download CV</span>
                 </a>
-              </div> */}
+              </div>
               {/* /Download CV Button */}
             </div>
           </div>
