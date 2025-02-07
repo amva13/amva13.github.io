@@ -384,6 +384,34 @@ const About = () => {
                       </div>
                     </div>
                   </div>
+                  <div className="progress_item open" data-value={98}>
+                    <div className="item_in">
+                      <h3 className="progress_title">Flask, GUnicorn</h3>
+                      <span
+                        className="progress_percent"
+                        style={{ right: "2%" }}
+                      >
+                        98%
+                      </span>
+                      <div className="bg_wrap">
+                        <div className="progress_bg" style={{ width: "98%" }} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="progress_item open" data-value={95}>
+                    <div className="item_in">
+                      <h3 className="progress_title">MySQL, PostgreSQL</h3>
+                      <span
+                        className="progress_percent"
+                        style={{ right: "5%" }}
+                      >
+                        95%
+                      </span>
+                      <div className="bg_wrap">
+                        <div className="progress_bg" style={{ width: "95%" }} />
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 {/* /Progress Bar */}
                 {/* Description */}
