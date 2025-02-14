@@ -54,7 +54,7 @@ const News = () => {
                   <div className="title_holder">
                     <p>Jan 29, 2025</p>
                     <h3>
-                      <a href="https://huggingface.co/tdc">
+                      <a href="https://tdcommons.ai/pytdc">
                       PyTDC: A multimodal machine learning training, evaluation, and inference platform 
                       for biomedical foundation models (more details to be released).
                       </a>
