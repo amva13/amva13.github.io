@@ -5,17 +5,33 @@ const Modalbox = ({ close, value }) => {
   const data = [
     {
       name: "NFT Search Engine and Masonry",
-      tag: "React.js, Javascript, Python, Full-stack developmen",
+      tag: "React.js, Javascript, Python, Full-stack development",
       desc: [
         { p: "I've found the webpage design for most nft marketplaces to be inadequate. They do a good job of showing the popularity and trading activity of NFTs. However, I don't believe they showcase the content of digital artwork well. So, I decided to build a search engine and masonry layout for NFTs. I hope it can help you find an NFT you like." }
       ]
 
     },
     {
-      name: "Generative AI for Drug Discovery",
-      tag: "Generative AI, Python, Flask, PyTorch, Diffusion Generative Models",
+      name: "Apliko: Web3 startup",
+      tag: "entrepreneurship, web3",
       desc: [
-        { p: "DiffDock is a diffusion generative model built by MIT CSAIL for protein-ligand binding (molecular docking). I've reproduced it and productionized it via a web server. " },
+        { p: "I worked on launching a web3 startup and built a webapp with some thousand users. I wrote a whitepaper for a token and gave an interview about the concept here: https://nftcalendar.io/news/apliko-emblem-interview/." },
+      ]
+
+    },
+    {
+      name: "Therapeutic LLM",
+      tag: "LLM Agents, Computational Biology, BMI",
+      desc: [
+        { p: "AGIHouse Hackathon: Therapeutic LLM using function calling for disease association and single-cell analysis. Code: https://github.com/amva13/therapeutics-llm." },
+      ]
+
+    },
+    {
+      name: "RAG-enabled LLM Agent for Pediatrics",
+      tag: "LLM Agents, Medical Informatics, RAG",
+      desc: [
+        { p: "*Awaiting peer review*: Monitoring a child’s growth is vital for early detection of disorders. This study explores integrating a large language model (LLM) agent into the SMART on FHIR Growth Chart App to assist pediatricians in identifying growth abnormalities. Using a User-Centered Design (UCD) approach, we gathered pediatrician feedback to refine an AI tab analyzing synthetic patient data. The system was implemented using the OpenAI Assistants API with Retrieval Augmented Generation (RAG) and tested for usability and functionality with three pediatricians in an evaluation of model responses for growth abnormality detection, patient history analysis, recommended specialist referral, differential diagnosis and executive summary. Results showed that the agent can achieve high levels of usability when integrated into a clinical setting. However, while the agent accurately analyzed three of five synthetic patients, its responses to differential diagnoses and specialist referrals were insufficient. This proof of concept highlights the potential of AI tools in pediatrics but also underscores the need for improved accuracy in future developments. We have open-sourced the agentic app." },
       ]
 
     },
@@ -24,6 +40,14 @@ const Modalbox = ({ close, value }) => {
       tag: "hedge funds, trading, Python, big data", 
       desc: [
         { p: "Developed system design and prototype implementation of data infrastructure serving quantitative research for a cryptocurrency hedge fund client."}
+      ]
+
+    },
+    {
+      name: "Geometric Compactness in Gerrymandering: Research Assistantship MIT CSAIL",
+      tag: "data science, python, data engineering, quantitative research", 
+      desc: [
+        { p: "Developed a high-performance geometric data processing library for scientific computing over GIS data (shapefiles) in Python."}
       ]
 
     }

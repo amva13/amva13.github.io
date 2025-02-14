@@ -42,6 +42,11 @@ const Nav = ({ close, trigger }) => {
                    Publications & Projects 
                 </a>
               </li>
+              <li style={{ transitionDelay: !trigger ? "0ms" : "1500ms" }}>
+                <a onClick={() => close()} href="#portfolio">
+                   Portfolio 
+                </a>
+              </li>
               <li style={{ transitionDelay: !trigger ? "0ms" : "1700ms" }}>
                 <a onClick={() => close()} href="#contact">
                   Contact

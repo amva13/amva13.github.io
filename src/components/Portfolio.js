@@ -21,7 +21,7 @@ const Portfolio = () => {
               </a>
             </div>
             <h3 className="subtitle">Portfolio</h3>
-            <h3 className="title">Other Cool Projects</h3>
+            <h3 className="title">Neat, unmantained, projects</h3>
           </div>
           {/* /Main Title */}
         </div>
@@ -77,24 +77,24 @@ const Portfolio = () => {
             >
               <div className="img_holder">
                 <img src="img/thumb/square.jpg" alt="image" />
-                <div className="abs_img" data-bg-img="img/portfolio/diffdock.png" />
+                <div className="abs_img" data-bg-img="img/aplikonft.png" />
               </div>
               <div className="title_holder">
-                <p>Generative AI, Python, Flask, PyTorch, Diffusion Generative Models</p>
+                <p>entrepreneurship, web3</p>
                 <h3>
-                  <a href="https://github.com/amva13/DiffDock">Generative AI for Drug Discovery</a>
+                  <a href="https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/23963367906679302864893822046671067385534276026416763800497373768214537830410">Apliko: Web3 startup</a>
                 </h3>
               </div>
               <div className="fn__hidden">
-                <p className="fn__cat">Generative AI, Python, Flask, PyTorch, Diffusion Generative Models</p>
-                <h3 className="fn__title">Generative AI for Drug Discovery</h3>
+                <p className="fn__cat">entrepreneurship, web3</p>
+                <h3 className="fn__title">Apliko</h3>
                 <div className="img_holder">
                   <img src="img/thumb/square.jpg" alt="image" />
-                  <div className="abs_img" data-bg-img="img/portfolio/diffdock.png" />
+                  <div className="abs_img" data-bg-img="img/aplikonft.png" />
                 </div>
                 <p className="fn__desc">
-                 DiffDock is a diffusion generative model built by MIT CSAIL for protein-ligand binding 
-                 (molecular docking). I've reproduced it and productionized it via a web server. 
+                I worked on launching a web3 startup and built a webapp with some thousand users. I wrote a whitepaper for a token
+                and gave an interview about the concept here: https://nftcalendar.io/news/apliko-emblem-interview/. 
                 </p>
               </div>
             </SwiperSlide>
@@ -105,6 +105,66 @@ const Portfolio = () => {
                 setModalValue(3);
               }}
               data-index={3}
+            >
+              <div className="img_holder">
+                <img src="img/thumb/square.jpg" alt="image" />
+                <div className="abs_img" data-bg-img="img/news/llmagents.png" />
+              </div>
+              <div className="title_holder">
+                <p>LLM Agents, Computational Biology, BMI</p>
+                <h3>
+                  <a href="https://youtu.be/18pdSrL21Bo">Therapeutic LLM</a>
+                </h3>
+              </div>
+              <div className="fn__hidden">
+                <p className="fn__cat">LLM Agents, Computational Biology, BMI</p>
+                <h3 className="fn__title">Therapeutic LLM</h3>
+                <div className="img_holder">
+                  <img src="img/thumb/square.jpg" alt="image" />
+                  <div className="abs_img" data-bg-img="img/news/llmagents.png" />
+                </div>
+                <p className="fn__desc">
+                  AGI House Hackathon: Therapeutic LLM using function calling for disease association and single-cell analysis. Code: https://github.com/amva13/therapeutics-llm.
+                </p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide
+              className="item modal_item"
+              onClick={() => {
+                setModal(true);
+                setModalValue(4);
+              }}
+              data-index={4}
+            >
+              <div className="img_holder">
+                <img src="img/thumb/square.jpg" alt="image" />
+                <div className="abs_img" data-bg-img="img/news/llmgrowth.png" />
+              </div>
+              <div className="title_holder">
+                <p>LLM Agents, Medical Informatics, RAG</p>
+                <h3>
+                  <a href="https://github.com/amva13/growth-llm">Pediatrics LLM</a>
+                </h3>
+              </div>
+              <div className="fn__hidden">
+                <p className="fn__cat">LLM Agents, Medical Informatics, RAG</p>
+                <h3 className="fn__title">Pediatrics LLM</h3>
+                <div className="img_holder">
+                  <img src="img/thumb/square.jpg" alt="image" />
+                  <div className="abs_img" data-bg-img="img/news/llmgrowth.png" />
+                </div>
+                <p className="fn__desc">
+                *Awaiting peer review*: Monitoring a child’s growth is vital for early detection of disorders. This study explores integrating a large language model (LLM) agent into the SMART on FHIR Growth Chart App to assist pediatricians in identifying growth abnormalities. Using a User-Centered Design (UCD) approach, we gathered pediatrician feedback to refine an AI tab analyzing synthetic patient data. The system was implemented using the OpenAI Assistants API with Retrieval Augmented Generation (RAG) and tested for usability and functionality with three pediatricians in an evaluation of model responses for growth abnormality detection, patient history analysis, recommended specialist referral, differential diagnosis and executive summary. Results showed that the agent can achieve high levels of usability when integrated into a clinical setting. However, while the agent accurately analyzed three of five synthetic patients, its responses to differential diagnoses and specialist referrals were insufficient. This proof of concept highlights the potential of AI tools in pediatrics but also underscores the need for improved accuracy in future developments. We have open-sourced the agentic app.
+                </p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide
+              className="item modal_item"
+              onClick={() => {
+                setModal(true);
+                setModalValue(5);
+              }}
+              data-index={5}
             >
               <div className="img_holder">
                 <img src="img/thumb/square.jpg" alt="image" />
@@ -133,9 +193,9 @@ const Portfolio = () => {
               className="item modal_item"
               onClick={() => {
                 setModal(true);
-                setModalValue(4);
+                setModalValue(6);
               }}
-              data-index={4}
+              data-index={6}
             >
               <div className="img_holder">
                 <img src="img/thumb/square.jpg" alt="image" />
@@ -144,12 +204,12 @@ const Portfolio = () => {
               <div className="title_holder">
                 <p>data science, python, data engineering, quantitative research</p>
                 <h3>
-                  <a href="https://github.com/amva13/mit-csail-tufts-mggg-gerrymandering-geometric-data-processing">Research Assistantship MIT CSAIL</a>
+                  <a href="https://github.com/amva13/mit-csail-tufts-mggg-gerrymandering-geometric-data-processing">Geometric Compactness in Gerrymandering: Research Assistantship MIT CSAIL</a>
                 </h3>
               </div>
               <div className="fn__hidden">
                 <p className="fn__cat">data science, python, data engineering, quantitative research</p>
-                <h3 className="fn__title">Research Assistantship MIT CSAIL</h3>
+                <h3 className="fn__title">Geometric Compactness in Gerrymandering: Research Assistantship MIT CSAIL</h3>
                 <div className="img_holder">
                   <img src="img/thumb/square.jpg" alt="image" />
                   <div className="abs_img" data-bg-img="img/news/gdp.jpg" />
