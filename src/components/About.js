@@ -148,8 +148,8 @@ const About = () => {
                     <li>
                       <div className="item">
                         <div className="item_top">
-                          <h5><a href="https://pinterest.com">Prime Video @ Amazon</a></h5>
-                          <span>( 2018 - 2021 )</span>
+                          <h5><a href="https://www.amazon.com/gp/video/storefront">Prime Video @ Amazon</a></h5>
+                          <span>( 2021 - 2021 )</span>
                         </div>
                         <h3>SDE II</h3>
                         <p>
