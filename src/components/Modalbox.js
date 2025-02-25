@@ -4,6 +4,14 @@ import { dataImage } from "../utilits";
 const Modalbox = ({ close, value }) => {
   const data = [
     {
+      name: "EEGPT - Brain Waves LLM. Non-invasive BCI",
+      tag: "OpenAI, Javascript, Full-stack development",
+      desc: [
+        { p: "Generative AI meets at-home neurodegenerative disease monitoring and care. A non-invasive BCI app integrated with Neurosity EEG for monitoring and alerting of vital brain activity from the comfort of their homes." }
+      ]
+
+    },
+    {
       name: "NFT Search Engine and Masonry",
       tag: "React.js, Javascript, Python, Full-stack development",
       desc: [

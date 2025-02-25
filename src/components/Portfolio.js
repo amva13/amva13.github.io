@@ -43,6 +43,37 @@ const Portfolio = () => {
             >
               <div className="img_holder">
                 <img src="img/thumb/square.jpg" alt="image" />
+                <div className="abs_img" data-bg-img="img/eegpt.png" />
+              </div>
+              <div className="title_holder">
+                <p>OpenAI, Javascript, Full-stack development</p>
+                <h3>
+                  <a href="https://youtu.be/ynKGl7MxuqI">EEGPT - Brain Waves LLM. Non-invasive BCI</a>
+                </h3>
+              </div>
+              <div className="fn__hidden">
+                <p className="fn__cat">OpenAI, Javascript, Full-stack development</p>
+                <h3 className="fn__title">EEGPT - Brain Waves LLM. Non-invasive BCI</h3>
+                <div className="img_holder">
+                  <img src="img/thumb/square.jpg" alt="image" />
+                  <div className="abs_img" data-bg-img="img/eegpt.png" />
+                </div>
+                <p className="fn__desc">
+                  Generative AI meets at-home neurodegenerative disease monitoring and care. A non-invasive BCI app integrated with Neurosity EEG 
+                  for monitoring and alerting of vital brain activity from the comfort of their homes.
+                </p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide
+              className="item modal_item"
+              onClick={() => {
+                setModal(true);
+                setModalValue(2);
+              }}
+              data-index={2}
+            >
+              <div className="img_holder">
+                <img src="img/thumb/square.jpg" alt="image" />
                 <div className="abs_img" data-bg-img="img/portfolio/nfts.png" />
               </div>
               <div className="title_holder">
@@ -71,9 +102,9 @@ const Portfolio = () => {
               className="item modal_item"
               onClick={() => {
                 setModal(true);
-                setModalValue(2);
+                setModalValue(3);
               }}
-              data-index={2}
+              data-index={3}
             >
               <div className="img_holder">
                 <img src="img/thumb/square.jpg" alt="image" />
@@ -102,9 +133,9 @@ const Portfolio = () => {
               className="item modal_item"
               onClick={() => {
                 setModal(true);
-                setModalValue(3);
+                setModalValue(4);
               }}
-              data-index={3}
+              data-index={4}
             >
               <div className="img_holder">
                 <img src="img/thumb/square.jpg" alt="image" />
@@ -132,9 +163,9 @@ const Portfolio = () => {
               className="item modal_item"
               onClick={() => {
                 setModal(true);
-                setModalValue(4);
+                setModalValue(5);
               }}
-              data-index={4}
+              data-index={5}
             >
               <div className="img_holder">
                 <img src="img/thumb/square.jpg" alt="image" />
@@ -162,9 +193,9 @@ const Portfolio = () => {
               className="item modal_item"
               onClick={() => {
                 setModal(true);
-                setModalValue(5);
+                setModalValue(6);
               }}
-              data-index={5}
+              data-index={6}
             >
               <div className="img_holder">
                 <img src="img/thumb/square.jpg" alt="image" />
@@ -193,9 +224,9 @@ const Portfolio = () => {
               className="item modal_item"
               onClick={() => {
                 setModal(true);
-                setModalValue(6);
+                setModalValue(7);
               }}
-              data-index={6}
+              data-index={7}
             >
               <div className="img_holder">
                 <img src="img/thumb/square.jpg" alt="image" />
