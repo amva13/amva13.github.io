@@ -99,43 +99,35 @@ const About = () => {
                 {/* Boxed List */}
                 <div className="resumo_fn_boxed_list">
                   <ul>
+                  <li>
+                      <div className="item">
+                          <div className="item_top">
+                            <h5><a href="https://apliko.io/">Apliko Inc</a></h5>
+                            <span>( 2025 — present )</span>
+                          </div>
+                          <h3>Founder</h3>
+                          <p>
+                          Superintelligent AI Agents for health and sustainability.
+                          </p>
+                        </div>
+                      </li>
                     <li>
                       <div className="item">
                           <div className="item_top">
                             <h5><a href="https://hms.harvard.edu/">Harvard Medical School</a></h5>
-                            <span>( 2024 — present )</span>
+                            <span>( 2024 — 2025 )</span>
                           </div>
-                          <h3>Research Associate</h3>
-                          <h6>
-                            My research focuses on the development and evaluation of biological foundation models 
-                            at therapeutics tasks.
-                            </h6>
-                            <h6>
-                              I built PyTDC: A multimodal machine learning 
-                            training, evaluation, and inference platform for biomedical 
-                            foundation models.
-                            </h6>
-                            <p>
-                              I did this by overhauling the Therapeutic Data Commons (tdcommons.ai), 
-                            and more information will be available soon. You can checkout our huggingface model hub,
-                            where we've deployed exciting biological foundation models like Geneformer (Theodoris et al.) 
-                            and scGPT (Cui et al.) - https://huggingface.co/tdc . They system already has many thousands of 
-                            downloads.
-                            </p>
-                            <p>
-                              As a whole, including the legacy TDC platform which I also own, we have approximately
-                              30K MAU and a booming open-source community.
-                            </p>
-                            <h6>
-                              Other areas of research have included LLM agents and graph representation learning.
-                            </h6>
+                          <h3>Research Fellow</h3>
+                          <p>
+                            Built <a href="https://pytdc.apliko.io/" style={{color:"gray"}}>PyTDC</a>, A multimodal machine learning training, evaluation, and inference platform for biomedical foundation models. Built <a href="https://scholar.google.com/scholar?oi=bibs&cluster=17622846334429665412&btnI=1&hl=en" style={{color:"gray"}}>llm agents</a> and foundation models for drug discovery and biomedical applications.
+                          </p>
                         </div>
                       </li>
                       <li>
                       <div className="item">
                         <div className="item_top">
-                          <h5><a href="https://getcruise.com">Cruise Automation LLC</a></h5>
-                          <span>( 2022 — 2022 )</span>
+                          <h5><a href="https://getcruise.com">Cruise Automation LLC and various startups</a></h5>
+                          <span>( 2021 — 2022 )</span>
                         </div>
                         <h3>Senior Machine Learning Software Engineer</h3>
                         <p>
@@ -171,7 +163,6 @@ const About = () => {
                           optimizations on the Pinterest Ads ranking model.
                         </p>
                       </div>
-                      
                     </li>
                   </ul>
                 </div>
